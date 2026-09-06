@@ -1,0 +1,1 @@
+{"rules":[{"when":"ram_gb<=8","profile":"low_end"},{"when":"gpu_util>=95","profile":"gpu_bound"},{"when":"cpu_util>=90","profile":"cpu_bound"}]}

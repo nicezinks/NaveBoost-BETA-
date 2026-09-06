@@ -1,0 +1,4 @@
+windows registry editor version 5.00
+
+[hkey_local_machine\system\currentcontrolset\control\session manager\memory management]
+"disablepagingexecutive"=dword:00000000

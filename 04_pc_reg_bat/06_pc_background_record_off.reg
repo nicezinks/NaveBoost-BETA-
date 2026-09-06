@@ -1,0 +1,4 @@
+windows registry editor version 5.00
+
+[hkey_current_user\system\gameconfigstore]
+"gamedvr_enabled"=dword:00000000
