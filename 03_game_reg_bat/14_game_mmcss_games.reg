@@ -1,0 +1,5 @@
+windows registry editor version 5.00
+
+[hkey_local_machine\software\microsoft\windows nt\currentversion\multimedia\systemprofile\tasks\games]
+"background only"="false"
+"clock rate"=dword:00002710

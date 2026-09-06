@@ -1,0 +1,11 @@
+@echo off
+setlocal enableextensions enabledelayedexpansion
+title naveboost turbo pro 7.3
+cd /d "%~dp0"
+
+call "%~dp0..\00_core\common.bat" >nul
+set "log=%nb_log%"
+
+powershell -noprofile -command "get-scheduledtask | where state -eq 'ready' | select taskname,taskpath | sort taskpath,taskname | out-file '%log%\scheduled_tasks.txt'"
+echo saved %log%\scheduled_tasks.txt
+endlocal

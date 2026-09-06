@@ -1,0 +1,4 @@
+windows registry editor version 5.00
+
+[hkey_current_user\software\microsoft\windows\currentversion\gamedvr]
+"appcaptureenabled"=dword:00000000
