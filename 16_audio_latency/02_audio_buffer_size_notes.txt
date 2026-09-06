@@ -1,0 +1,1 @@
+buffer menor pode reduzir latencia mas pode aumentar estalos/instabilidade. a configuracao exata depende do driver e do aplicativo; nao force globalmente.

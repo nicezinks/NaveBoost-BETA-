@@ -1,0 +1,1 @@
+para jogos competitivos, avalie as configuracoes do proprio jogo e do driver. nao altere sensibilidade automaticamente.
