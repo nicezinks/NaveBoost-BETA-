@@ -1,1 +1,0 @@
-naveboost nao deve trocar fullscreen globalmente. compare modos por jogo, mantendo vrr/hdr quando a configuracao suportar e valide com benchmark.
