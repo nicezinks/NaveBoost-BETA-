@@ -1,6 +1,0 @@
-windows registry editor version 5.00
-
-[hkey_local_machine\software\microsoft\windows nt\currentversion\multimedia\systemprofile\tasks\games]
-"priority"=dword:00000006
-"gpu priority"=dword:00000008
-"scheduling category"="high"
