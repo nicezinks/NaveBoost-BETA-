@@ -1,1 +1,0 @@
-score = 50% 1% low + 30% average fps + 20% frametime stability. compare repeated runs.

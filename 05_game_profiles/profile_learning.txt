@@ -1,1 +1,0 @@
-keep a profile only when improvement is repeatable and stability is unchanged or better.
