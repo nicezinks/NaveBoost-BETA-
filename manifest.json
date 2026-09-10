@@ -1,0 +1,1966 @@
+{
+  "version": "8.0.0-adaptive",
+  "file_count": 392,
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 2946,
+      "sha256": "4d9008b3c2b875f0aea68b56b68a443d114f53a1825e0078ccdb020a03618860"
+    },
+    {
+      "path": "00_core/apply_reg.bat",
+      "bytes": 1056,
+      "sha256": "628000cf564da6ddbc626723587dc954818ac2b627653d38b3ee4620fba3cd3a"
+    },
+    {
+      "path": "00_core/build_release.ps1",
+      "bytes": 1262,
+      "sha256": "e35a4f36838f602ddb1c0a27e367429b02398059fc4897e14618b2e1da06277a"
+    },
+    {
+      "path": "00_core/common.bat",
+      "bytes": 884,
+      "sha256": "f2bc64fc68616480d5d1bfd293f19eb7fe411566270e74fc3c4014f18c093929"
+    },
+    {
+      "path": "00_core/export_reg_key_from_file.ps1",
+      "bytes": 1145,
+      "sha256": "7b15021cee2694e05d341462331aefa218a3008afee40a019a48c10c87345ce5"
+    },
+    {
+      "path": "00_core/game_session_apply.bat",
+      "bytes": 441,
+      "sha256": "2abc5af91f402d56dc2ecabb0cefba8d8c8e8ee9bc021457d1f75e081ec58220"
+    },
+    {
+      "path": "00_core/game_session_apply.ps1",
+      "bytes": 1417,
+      "sha256": "32a4548b48d474f4e8df82bd6ffbf233ecdbab7b2f5b237e20581064d47658a2"
+    },
+    {
+      "path": "00_core/naveboost_cli.ps1",
+      "bytes": 68821,
+      "sha256": "ef532dbe5e7c3081cd41db2aebc1c6ccf9df9e30639676be80cd3962aac18208"
+    },
+    {
+      "path": "00_core/require_admin.bat",
+      "bytes": 251,
+      "sha256": "538428a8dc89bd521196ff441524805812baf982cc6e14cf74e23f219ecf8ec6"
+    },
+    {
+      "path": "00_core/state.bat",
+      "bytes": 332,
+      "sha256": "114ac9c4a4b27e8efa0e37b6f585138f0a4f8636eff34a8bb718780f498af8f0"
+    },
+    {
+      "path": "00_core/update_manifest.ps1",
+      "bytes": 2502,
+      "sha256": "3dd04dee960c2f1df3bb6130be29ea6ad82c783eb41a64dc8a4632d798e64e0b"
+    },
+    {
+      "path": "00_core/verify_pack.bat",
+      "bytes": 469,
+      "sha256": "447f2d170ab0578973fc686c1e7f6e62f04e3addceb9661557a42231802cd7ba"
+    },
+    {
+      "path": "00_core/verify_pack.ps1",
+      "bytes": 8346,
+      "sha256": "a48fc916bdc12d6c384e5d9d650ff843eed800b3c740bb71e63a33f95841c720"
+    },
+    {
+      "path": "00_core/version.json",
+      "bytes": 109,
+      "sha256": "cc5339475a374220cd7def22a25f1d18c02013d8720f9ef7649579471dd85ec4"
+    },
+    {
+      "path": "01_game_code/01_game_scan.bat",
+      "bytes": 531,
+      "sha256": "066a39995318d540afdab7b6113272ed4dea5157f984974e8e00fdb2ab150f35"
+    },
+    {
+      "path": "01_game_code/02_game_select_exe.bat",
+      "bytes": 332,
+      "sha256": "f9cc519e7596ed370dbd5a81bffb551691017c9644394b59fc726e69e267bfa4"
+    },
+    {
+      "path": "01_game_code/03_game_set_high.bat",
+      "bytes": 499,
+      "sha256": "a7e9e33534526c7288fa0e17b6d680ed0605cbedfe0df225d40937c93eae74e4"
+    },
+    {
+      "path": "01_game_code/04_game_priority_running.bat",
+      "bytes": 480,
+      "sha256": "b5b3217bac14142bcbcaff13d3400f3f12834949155f7850da56112c5b1f7db8"
+    },
+    {
+      "path": "01_game_code/05_game_background_audit.bat",
+      "bytes": 427,
+      "sha256": "1b2996c99f5d800f395d173502f770ba00cd5fe9c59ae0a5d5c64e7e927e10fb"
+    },
+    {
+      "path": "01_game_code/06_game_game_mode_status.bat",
+      "bytes": 339,
+      "sha256": "d0a41bd06a6d2b3314473342576946264bb1134191dac723b4115f3e09dae29e"
+    },
+    {
+      "path": "01_game_code/07_game_capture_status.bat",
+      "bytes": 460,
+      "sha256": "3300f1c6c3db95ad2b9ab8c0158e52d800d75e6dd4b21b474f512fcfd6b55a74"
+    },
+    {
+      "path": "01_game_code/08_game_full_screen_check.bat",
+      "bytes": 550,
+      "sha256": "cda0ab7f01ce147f1f2a8dfcd5a65f18eee095c8fb39eb04857034626971c65a"
+    },
+    {
+      "path": "01_game_code/09_game_process_snapshot.bat",
+      "bytes": 448,
+      "sha256": "f46d9c37ce6f8df13037d77be1fae43a1b4eb429d3cf9554bf7e07811e5ab6c3"
+    },
+    {
+      "path": "01_game_code/10_game_session_start.bat",
+      "bytes": 488,
+      "sha256": "5bc5eb6c61e656305d37db92a25ae3256a8d3b656b83c7cffe4a41ff5e1ab08a"
+    },
+    {
+      "path": "01_game_code/11_game_session_end.bat",
+      "bytes": 353,
+      "sha256": "dcdf2a5da21d745ba139b0a3ede8d0ef8c3ce49eb393f20ba17fb7d13be80ff9"
+    },
+    {
+      "path": "01_game_code/12_game_power_gaming.bat",
+      "bytes": 386,
+      "sha256": "3cd04959d5d4f2f8809000a9cf5fa10d4f71a9ae892542ff95177af03cf408c7"
+    },
+    {
+      "path": "01_game_code/13_game_disable_overlay_hints.bat",
+      "bytes": 310,
+      "sha256": "11c9bdcdf45bc847c975f50f906a2779cca3d5d430d687a7874c7b85f4f872af"
+    },
+    {
+      "path": "01_game_code/14_game_overlay_audit.bat",
+      "bytes": 405,
+      "sha256": "728e092e365488d6566b6b6d3acf5eb614177c3ed0768e3aad66e535f816fe94"
+    },
+    {
+      "path": "01_game_code/15_game_cpu_contention.bat",
+      "bytes": 357,
+      "sha256": "e8d46321ab4ef292e91ee63c181591c597ddfbeabd50bc237325b6c45e343de6"
+    },
+    {
+      "path": "01_game_code/16_game_ram_pressure.bat",
+      "bytes": 475,
+      "sha256": "d42b3e9be12d9f24dba85310c76de1f1509d8b9d9ddc4dd22ee68e8d7e78e43a"
+    },
+    {
+      "path": "01_game_code/17_game_vram_status.bat",
+      "bytes": 341,
+      "sha256": "590795a4fda8dd126bb58c95e9cc3de43a6795aabcdd9bfb96bbda73db4c3a7e"
+    },
+    {
+      "path": "01_game_code/18_game_disk_activity.bat",
+      "bytes": 389,
+      "sha256": "d1dd9c111877bbbc1fc839a9c8dc283913cd0711f1f18c1136d96b21df66b18f"
+    },
+    {
+      "path": "01_game_code/19_game_network_activity.bat",
+      "bytes": 298,
+      "sha256": "1c9b71c51d84b8c874446de2e417909d5b1c2f11105635342e74fba2104482ae"
+    },
+    {
+      "path": "01_game_code/20_game_clock_throttle_hint.bat",
+      "bytes": 407,
+      "sha256": "7f95e4efaa98e8deb5018b19e6433eb66067a436585715e55b25580ff7217afe"
+    },
+    {
+      "path": "01_game_code/21_game_set_affinity_safe.bat",
+      "bytes": 539,
+      "sha256": "3050defeb1a9051bd288193d83b5a2b77fff33563106ab9f75724a769e059c91"
+    },
+    {
+      "path": "01_game_code/22_game_reset_affinity.bat",
+      "bytes": 469,
+      "sha256": "8c6bcf348da55dc6d0beb63e26ae69129d79938eb9202c70869af48bba20a408"
+    },
+    {
+      "path": "01_game_code/23_game_priority_normal.bat",
+      "bytes": 464,
+      "sha256": "e39a1a7d8063229c745972510b31265c0d9f4a2994431e4e61e3dcb366201f93"
+    },
+    {
+      "path": "01_game_code/24_game_check_services.bat",
+      "bytes": 331,
+      "sha256": "02f5b12775c2b6e85dff38a991740758885751e2eb59f6a77b228c87b2e5738a"
+    },
+    {
+      "path": "01_game_code/25_game_event_log_errors.bat",
+      "bytes": 384,
+      "sha256": "9c9cff20f9aef21da16d64dc79b7e744bc198535950fc9ab2fdb0d2b83ef61f1"
+    },
+    {
+      "path": "01_game_code/26_game_create_profile.bat",
+      "bytes": 434,
+      "sha256": "943d53432d50a15ea214d908df7ead2a1de7f4429d13aaf83c5fdbe2211c8c72"
+    },
+    {
+      "path": "01_game_code/27_game_launch_profile.bat",
+      "bytes": 404,
+      "sha256": "69fc3d7d3f38b561dc0e1a6dd5471e039ff7fbbee72eab96bc1a57f4ee942277"
+    },
+    {
+      "path": "01_game_code/28_game_close_optional.bat",
+      "bytes": 388,
+      "sha256": "a0ec8c04a134829219c28540b8aac42e0a5d014c0732db572b1eb99bb4a637af"
+    },
+    {
+      "path": "01_game_code/29_game_benchmark_session.bat",
+      "bytes": 332,
+      "sha256": "1b28d264727116d95c9a2d66f068a458e1f25184759a0538c1362f07ce4d5c5b"
+    },
+    {
+      "path": "01_game_code/30_game_restore_profile.bat",
+      "bytes": 483,
+      "sha256": "d7e65a0cbfeb9e861038ed2985cab664f79e1d5ad2ba9eada1241ab4ea28b662"
+    },
+    {
+      "path": "01_game_code/31_game_library_discovery.bat",
+      "bytes": 229,
+      "sha256": "c52537df0d316bedd948219689688b84763a0ae2d46753c7d3778aec8de51fca"
+    },
+    {
+      "path": "02_pc_code/01_pc_hardware_scan.bat",
+      "bytes": 529,
+      "sha256": "753c7c52f269f81d1df3f5898cd3e3e452a2ceb61d1336d6ec01031724f2e236"
+    },
+    {
+      "path": "02_pc_code/02_pc_os_scan.bat",
+      "bytes": 251,
+      "sha256": "28e89986ed71dfdae5d76fc4171d3cb96567cdfa57d7433a300c13b0ffc13d4b"
+    },
+    {
+      "path": "02_pc_code/03_pc_power_status.bat",
+      "bytes": 222,
+      "sha256": "bb69eae7d364d4e4c07e3e0e6f498611b55355925a603999de9d9a1485896eda"
+    },
+    {
+      "path": "02_pc_code/04_pc_power_performance.bat",
+      "bytes": 405,
+      "sha256": "96042cf80bf929877ef251bd7ede9a2198473ac7a165eebb758a85ab00872d8b"
+    },
+    {
+      "path": "02_pc_code/05_pc_cpu_load.bat",
+      "bytes": 425,
+      "sha256": "2db6b78571f40d861722779d63667f29a7ada17eda8935d6aab6ac555f8ccabd"
+    },
+    {
+      "path": "02_pc_code/06_pc_ram_status.bat",
+      "bytes": 475,
+      "sha256": "d42b3e9be12d9f24dba85310c76de1f1509d8b9d9ddc4dd22ee68e8d7e78e43a"
+    },
+    {
+      "path": "02_pc_code/07_pc_top_processes.bat",
+      "bytes": 362,
+      "sha256": "20cb0597d597571755c49963c7b3da9b202923295f79b5239bc0400e486a43ee"
+    },
+    {
+      "path": "02_pc_code/08_pc_startup_audit.bat",
+      "bytes": 314,
+      "sha256": "fbcd94967c7ac7569b6712e0f30e6f33969f5fb92887933a3e7e615a9884cb6e"
+    },
+    {
+      "path": "02_pc_code/09_pc_services_audit.bat",
+      "bytes": 360,
+      "sha256": "fe856b7c5250079b88ff03448870bdd2f47222b0774c3599f7e142053d8adf6b"
+    },
+    {
+      "path": "02_pc_code/10_pc_scheduled_tasks_audit.bat",
+      "bytes": 386,
+      "sha256": "7fbc038aa0b2aca2797f3fb51039b4ac4bedd904dfe879135bae8370e73b3f8c"
+    },
+    {
+      "path": "02_pc_code/11_pc_storage_scan.bat",
+      "bytes": 320,
+      "sha256": "34f23d527a96a5c35e42cbe11649bb2e8cb1b56eddc4f6fd494d0688767e9536"
+    },
+    {
+      "path": "02_pc_code/12_pc_trim_status.bat",
+      "bytes": 223,
+      "sha256": "217d92e26a4830783637dffe2c1834cb087d9470bf644db56d04ac15ee2d0ed8"
+    },
+    {
+      "path": "02_pc_code/13_pc_disk_free.bat",
+      "bytes": 406,
+      "sha256": "71638ae333548967f9968fcae64bd53c02cbbd0baf98af575fc3596f537e8c04"
+    },
+    {
+      "path": "02_pc_code/14_pc_network_scan.bat",
+      "bytes": 214,
+      "sha256": "3254827ac29b414f503d659b9fb3facc2a9bfb6108df823db38b719456dcc0a9"
+    },
+    {
+      "path": "02_pc_code/15_pc_dns_latency.bat",
+      "bytes": 454,
+      "sha256": "a4a54f28a4b5033e424b3263ab0c356953c57f0bf942f70649f491217797cdae"
+    },
+    {
+      "path": "02_pc_code/16_pc_adapter_status.bat",
+      "bytes": 292,
+      "sha256": "aee8b256efb9c7fc92355094c49d6351bc26daaee5d5334a5e3f8305ae59bbfa"
+    },
+    {
+      "path": "02_pc_code/17_pc_dpc_hint.bat",
+      "bytes": 314,
+      "sha256": "bc4292e1920696fbba12f4d62a8e975c776f44be16ec85a362a0294a21abf979"
+    },
+    {
+      "path": "02_pc_code/18_pc_event_errors.bat",
+      "bytes": 380,
+      "sha256": "f9161226ba85fd291ca9cebd0b454463e8154dea1069505c92878cf772d36e71"
+    },
+    {
+      "path": "02_pc_code/19_pc_dism_health.bat",
+      "bytes": 290,
+      "sha256": "a2378cc21b8b205aa9ab8faf8ba732ea6ff1c8aa3a6d7113ddd0a8bb4df21650"
+    },
+    {
+      "path": "02_pc_code/20_pc_sfc_verify.bat",
+      "bytes": 265,
+      "sha256": "e55c8ecda89099c576407f60767711945d4aaf10f75a1622b153c1f5085cf565"
+    },
+    {
+      "path": "02_pc_code/21_pc_temp_monitor.bat",
+      "bytes": 433,
+      "sha256": "8771fdf9d05a0e89ac5cb920042a3426da9ffdd8dd08f7cca645fc4ea8b51b28"
+    },
+    {
+      "path": "02_pc_code/22_pc_pagefile_status.bat",
+      "bytes": 326,
+      "sha256": "9a216f9e1bb323bef145b98a29a77e66fab287dfcb16877e46f0e712bf5fba20"
+    },
+    {
+      "path": "02_pc_code/23_pc_clean_temp_preview.bat",
+      "bytes": 321,
+      "sha256": "2bf64aad86b8b645b3d2811979469e31b4db9671ab72267cc8bab1251dfafcc9"
+    },
+    {
+      "path": "02_pc_code/24_pc_system_file_cache.bat",
+      "bytes": 405,
+      "sha256": "aa3d727a8a2483241fb0bd14b2bb012f64c64d63446c18f8c288d1be001c8601"
+    },
+    {
+      "path": "02_pc_code/25_pc_process_tree.bat",
+      "bytes": 378,
+      "sha256": "3cf2a6d467339a7699774cc3e93533f91692d257f6d34d232ccf4506902372ca"
+    },
+    {
+      "path": "02_pc_code/26_pc_driver_audit.bat",
+      "bytes": 424,
+      "sha256": "d0712a5c31bda2950d779efa2b5c3f6b0de6d05b33475e4665d281d24f764fbd"
+    },
+    {
+      "path": "02_pc_code/27_pc_environment_report.bat",
+      "bytes": 320,
+      "sha256": "d70bde978cd773349cc891dece459ba9e1c6d572ee063671077954912543847c"
+    },
+    {
+      "path": "02_pc_code/28_pc_reboot_required.bat",
+      "bytes": 414,
+      "sha256": "b12d2345f0da28a8172e58c611d9f2501fb923a6e08ecfac44b1e2ab382e962e"
+    },
+    {
+      "path": "02_pc_code/29_pc_optimization_score.bat",
+      "bytes": 522,
+      "sha256": "22bb88735b491b518b1c8de3ca8ee82445a9fd7d949bcfb2620ab124a3e5f4c4"
+    },
+    {
+      "path": "02_pc_code/30_pc_safe_mode_info.bat",
+      "bytes": 367,
+      "sha256": "e698488f5f5d1f2ee8675d76ceb4d1ef22b1612fcd356648e27ed7945376a423"
+    },
+    {
+      "path": "02_pc_code/31_pc_memory_profile.bat",
+      "bytes": 651,
+      "sha256": "86d260fa4a00102288cf70b73336c45fc069be7e29f720908904de15e2376967"
+    },
+    {
+      "path": "03_game_reg_bat/01_game_gamebar_off.reg",
+      "bytes": 143,
+      "sha256": "a98eef05ce8ca619c43550e83541f951baf30598554d0954956de68ea756f510"
+    },
+    {
+      "path": "03_game_reg_bat/02_game_gamedvr_off.reg",
+      "bytes": 114,
+      "sha256": "8bad7f5b86965f3bcd9b066def08f9247df924df1b324426b4bd7c588ae87a54"
+    },
+    {
+      "path": "03_game_reg_bat/03_game_gamebar_features.reg",
+      "bytes": 122,
+      "sha256": "6bce75c9b51e8b300d7e2177939fb7812d2c9969995e65d4f9eef7efa80fbf66"
+    },
+    {
+      "path": "03_game_reg_bat/04_game_foreground_priority.reg",
+      "bytes": 149,
+      "sha256": "4222624ffc3b247372e89f86d8af5062dfa4fa4bafe44b40567d861f4ef3a0be"
+    },
+    {
+      "path": "03_game_reg_bat/05_game_mmcs_systemresponsiveness.reg",
+      "bytes": 167,
+      "sha256": "e0cc8d73de3ef3628f16289c561843982802936a3000ceb13bb8499a34042213"
+    },
+    {
+      "path": "03_game_reg_bat/06_game_gpu_priority.reg",
+      "bytes": 171,
+      "sha256": "a69ef08369ceaca979d61ffad5d98da69064af9d9c5d5759c383503724094cb2"
+    },
+    {
+      "path": "03_game_reg_bat/07_game_game_priority.reg",
+      "bytes": 167,
+      "sha256": "37df5b92e9f87499a2d19760f8f67ee16426f8243861f73aecd16b78225cc67e"
+    },
+    {
+      "path": "03_game_reg_bat/08_game_scheduling_category.reg",
+      "bytes": 170,
+      "sha256": "df951adf97f205064061809a3bbd7850c2666344a4fc226fe6412a22ce99c313"
+    },
+    {
+      "path": "03_game_reg_bat/09_game_network_throttling_off.reg",
+      "bytes": 169,
+      "sha256": "5f61c47613c036fab6d1aad72dc9df997b775441089b9ecd48e74bed1156b30c"
+    },
+    {
+      "path": "03_game_reg_bat/10_game_system_profile_reserve.reg",
+      "bytes": 167,
+      "sha256": "e0cc8d73de3ef3628f16289c561843982802936a3000ceb13bb8499a34042213"
+    },
+    {
+      "path": "03_game_reg_bat/11_game_capture_policy.reg",
+      "bytes": 150,
+      "sha256": "6f3d67fafe5888b85994f628621e45b452112dab0ad9f3d45cb511621b15f29b"
+    },
+    {
+      "path": "03_game_reg_bat/12_game_gamebar_hide_hints.reg",
+      "bytes": 119,
+      "sha256": "b5f847864ef5e6f63c7d552f9cda0d89db7524d1d6e47e9f7fd7ecdb924f2b40"
+    },
+    {
+      "path": "03_game_reg_bat/14_game_mmcss_games.reg",
+      "bytes": 195,
+      "sha256": "97ed3a14593d2b3e12fb19bae1ef6f93420bed2abd4aad6d45dff2d99e959df3"
+    },
+    {
+      "path": "03_game_reg_bat/15_game_frame_capture_off.reg",
+      "bytes": 145,
+      "sha256": "5baebe5b243f1e3288ac930d7895c623b2dd5180ad1c6f4c257f4eff37336b56"
+    },
+    {
+      "path": "03_game_reg_bat/16_apply_game_safe.bat",
+      "bytes": 335,
+      "sha256": "3c608a4a3ec4051f874d3544f5f7fba3dae5c3f2fb447800eb7a201d38077c38"
+    },
+    {
+      "path": "03_game_reg_bat/17_apply_game_mmcss_experimental.bat",
+      "bytes": 516,
+      "sha256": "f84e164f7caba09d6dd32e7017d204c00fd437e85325d114276ec90bac4c5910"
+    },
+    {
+      "path": "03_game_reg_bat/18_apply_game_network_experimental.bat",
+      "bytes": 377,
+      "sha256": "79cccb46fe9684badc953a1d2aacea02e760d9fbb4335270e2e354812fdcc3f6"
+    },
+    {
+      "path": "03_game_reg_bat/19_backup_game_keys.bat",
+      "bytes": 624,
+      "sha256": "a58ebc88ea75e2f22a65370bd2440be86341b511d1f348094df502d608863b6e"
+    },
+    {
+      "path": "03_game_reg_bat/20_rollback_game_safe.bat",
+      "bytes": 433,
+      "sha256": "8714a84dbad9b5b34883c64466dd45d3bb34c9ba684ebb33c73409a0859c54ac"
+    },
+    {
+      "path": "03_game_reg_bat/21_apply_game_audio_capture_off.bat",
+      "bytes": 298,
+      "sha256": "cb2f8e4aa5ccc45e8bad83ef9a26e3426765f29b97d3027dba22eb2f57ff6388"
+    },
+    {
+      "path": "03_game_reg_bat/22_apply_game_gamebar_ui_off.bat",
+      "bytes": 231,
+      "sha256": "aa3fee06e7efb2b2f80dcd6f865f3a37b07d845ea52c1785ee7d4f94a1b92c48"
+    },
+    {
+      "path": "03_game_reg_bat/23_apply_game_capture_policy.bat",
+      "bytes": 227,
+      "sha256": "59099a7d655deedef214e74b0aec726ec94189be336c76c320a9fb72045ebc96"
+    },
+    {
+      "path": "03_game_reg_bat/24_apply_game_mode_enable.bat",
+      "bytes": 229,
+      "sha256": "ed99651bb48139ab576a2dfa492b859e439584a3fdb80b70bfb5229e99e8f7c4"
+    },
+    {
+      "path": "03_game_reg_bat/25_apply_game_priority_profile.bat",
+      "bytes": 300,
+      "sha256": "7bdb47bd556163c648d2e57684bb3b6d12dba2fe10162603afd9ded23a85241e"
+    },
+    {
+      "path": "03_game_reg_bat/26_apply_game_scheduler_profile.bat",
+      "bytes": 292,
+      "sha256": "cef383f3c21910ca53075853d955c2f865ed15e86cb71730360987234606aebb"
+    },
+    {
+      "path": "03_game_reg_bat/27_apply_game_compatibility.bat",
+      "bytes": 676,
+      "sha256": "269483a9672fe03707094548361a863f5c1ca6dccc670820ec908679281ed2f8"
+    },
+    {
+      "path": "03_game_reg_bat/27_apply_game_compatibility_template.bat",
+      "bytes": 76,
+      "sha256": "2f8828fbe235b4dae51dc1980469af6d4cfece3e9f1924c731287774edc13bb1"
+    },
+    {
+      "path": "03_game_reg_bat/28_apply_game_all_safe.bat",
+      "bytes": 371,
+      "sha256": "79b114944fcd6d6e9d7d2cb099ab78c403cf463e8aec1d3cd2388f0ad313440b"
+    },
+    {
+      "path": "03_game_reg_bat/29_rollback_game_all.bat",
+      "bytes": 384,
+      "sha256": "e185379c650a99fd22c83bd5a2f4735451edf3220bb6731afdcc6cbfb56ddc98"
+    },
+    {
+      "path": "03_game_reg_bat/30_verify_game_reg.bat",
+      "bytes": 421,
+      "sha256": "866fb6b82cd9e3371d2b3a54738bf9a73719f9ec126a115b3049f30e70c33346"
+    },
+    {
+      "path": "04_pc_reg_bat/01_pc_power_throttle_off.reg",
+      "bytes": 150,
+      "sha256": "1a2ce30930aa6cd3cd300f8b0ae67db666fd6398d0b80155b3820c7b1dcdfad9"
+    },
+    {
+      "path": "04_pc_reg_bat/02_pc_systemresponsiveness_10.reg",
+      "bytes": 167,
+      "sha256": "e0cc8d73de3ef3628f16289c561843982802936a3000ceb13bb8499a34042213"
+    },
+    {
+      "path": "04_pc_reg_bat/03_pc_network_throttling_off.reg",
+      "bytes": 169,
+      "sha256": "5f61c47613c036fab6d1aad72dc9df997b775441089b9ecd48e74bed1156b30c"
+    },
+    {
+      "path": "04_pc_reg_bat/04_pc_game_mode_user.reg",
+      "bytes": 122,
+      "sha256": "6bce75c9b51e8b300d7e2177939fb7812d2c9969995e65d4f9eef7efa80fbf66"
+    },
+    {
+      "path": "04_pc_reg_bat/05_pc_capture_off.reg",
+      "bytes": 143,
+      "sha256": "a98eef05ce8ca619c43550e83541f951baf30598554d0954956de68ea756f510"
+    },
+    {
+      "path": "04_pc_reg_bat/06_pc_background_record_off.reg",
+      "bytes": 114,
+      "sha256": "8bad7f5b86965f3bcd9b066def08f9247df924df1b324426b4bd7c588ae87a54"
+    },
+    {
+      "path": "04_pc_reg_bat/07_pc_foreground_priority.reg",
+      "bytes": 149,
+      "sha256": "4222624ffc3b247372e89f86d8af5062dfa4fa4bafe44b40567d861f4ef3a0be"
+    },
+    {
+      "path": "04_pc_reg_bat/08_pc_mmcss_games.reg",
+      "bytes": 226,
+      "sha256": "a9be70bd9bc90116519cdbb86a42b82e059941429993516e2aeab704631f2cc8"
+    },
+    {
+      "path": "04_pc_reg_bat/09_pc_hardware_acceleration.reg",
+      "bytes": 131,
+      "sha256": "a28e1e3d8873b5cb3c59880602723ed9c80d4bf48f514b1430e4655690d2a04a"
+    },
+    {
+      "path": "04_pc_reg_bat/10_pc_file_system_light.reg",
+      "bytes": 148,
+      "sha256": "15858bf9981615518e099125ab2c49c11caf56733b834196a2c96616ef1c0fee"
+    },
+    {
+      "path": "04_pc_reg_bat/11_pc_memory_compression.reg",
+      "bytes": 166,
+      "sha256": "3cedcea3d38de2018df5a9eac6870c6b8c5120e85404ccea56bd5749485b0377"
+    },
+    {
+      "path": "04_pc_reg_bat/12_pc_pagefile_safe.reg",
+      "bytes": 167,
+      "sha256": "0480f88973965e8d193cbaa52df8c95b1f595bd27174ee42cdca2523a11082fa"
+    },
+    {
+      "path": "04_pc_reg_bat/13_pc_startup_fast.reg",
+      "bytes": 155,
+      "sha256": "7037d6fa0bd07062821574d3d26b20d05e601072c1b975816a900fa1d6f0d417"
+    },
+    {
+      "path": "04_pc_reg_bat/14_pc_error_reporting_leave_on.reg",
+      "bytes": 136,
+      "sha256": "72c1f7114808c2051099e7e7c539a87dd8a9617fc601afd9456696d1c9712796"
+    },
+    {
+      "path": "04_pc_reg_bat/15_pc_audio_latency_safe.reg",
+      "bytes": 167,
+      "sha256": "e0cc8d73de3ef3628f16289c561843982802936a3000ceb13bb8499a34042213"
+    },
+    {
+      "path": "04_pc_reg_bat/16_backup_pc_keys.bat",
+      "bytes": 663,
+      "sha256": "29c649ceb818250c70b280e16e0a79c34bdc2ab90ba7bf20268291bafb9ccf96"
+    },
+    {
+      "path": "04_pc_reg_bat/17_apply_pc_capture_safe.bat",
+      "bytes": 341,
+      "sha256": "98fb27b242671baeb30b0cb830b5a45780b286f8ea9a82232e49e2feda2e1f87"
+    },
+    {
+      "path": "04_pc_reg_bat/18_apply_pc_power_throttle.bat",
+      "bytes": 382,
+      "sha256": "0e6b056f79345101d1d3b0d58633781eb74dd23a9fd846da86a2b31c2f2e9e2e"
+    },
+    {
+      "path": "04_pc_reg_bat/19_apply_pc_mmcss_experimental.bat",
+      "bytes": 394,
+      "sha256": "9da2d2b45cb02f4700e60e8140ee2839fbd21bcb1bbda056ca93f117c782e915"
+    },
+    {
+      "path": "04_pc_reg_bat/20_apply_pc_network_experimental.bat",
+      "bytes": 301,
+      "sha256": "731da19acc2f1a6ea72f3bfc61ec220beecdf693bdf78803aa4f9464d5909224"
+    },
+    {
+      "path": "04_pc_reg_bat/21_apply_pc_foreground_profile.bat",
+      "bytes": 298,
+      "sha256": "238d02f1fac845d0b5d62f6a63361ea73c350d335c4259d5668a9cf0d7bbffcf"
+    },
+    {
+      "path": "04_pc_reg_bat/22_apply_pc_startup_delay.bat",
+      "bytes": 223,
+      "sha256": "dc9b4edd11ce11b7f0064d58428fc3b0dcc9c6d02e7d76694f6e6fc2b0314bdf"
+    },
+    {
+      "path": "04_pc_reg_bat/23_apply_pc_ntfs_light.bat",
+      "bytes": 296,
+      "sha256": "23c686292e37c5cbb5dfe793b531de18b6c923b36c20d760e0b552b7e4984f09"
+    },
+    {
+      "path": "04_pc_reg_bat/24_apply_pc_pagefile_safe.bat",
+      "bytes": 292,
+      "sha256": "f08f539b057d4d14721c22e1f315c14e70669209a50bd407edb669eff015ce73"
+    },
+    {
+      "path": "04_pc_reg_bat/25_apply_pc_audio_safe.bat",
+      "bytes": 297,
+      "sha256": "9cca88cd40d549a58ef70b2159613533213ca0929e51941d0316bebad00cb30b"
+    },
+    {
+      "path": "04_pc_reg_bat/26_apply_pc_game_mode.bat",
+      "bytes": 225,
+      "sha256": "f189b7decf383330f37b46dcbf685fd9274eac6b4e46d40a28f4f209a1f2c451"
+    },
+    {
+      "path": "04_pc_reg_bat/27_apply_pc_all_safe.bat",
+      "bytes": 369,
+      "sha256": "51d9e94d5bac332e876d2144f48a1f1ae48775647b0893da1bccd9ee13b2ae68"
+    },
+    {
+      "path": "04_pc_reg_bat/28_rollback_pc.bat",
+      "bytes": 545,
+      "sha256": "c4832971aa8c66e63c0eb9525d1df080738a460883677b747aec91ac0dcc6864"
+    },
+    {
+      "path": "04_pc_reg_bat/29_verify_pc_reg.bat",
+      "bytes": 406,
+      "sha256": "3c485c627dc1cc8b8ae40d4fb3814e9c4309d4e6e112b3ba630403d8164d2f4a"
+    },
+    {
+      "path": "04_pc_reg_bat/30_reboot_after_reg.bat",
+      "bytes": 364,
+      "sha256": "b28f6698862235ae8ec267a750f3ab443ea041c1bfb7b65278cab9353c220f43"
+    },
+    {
+      "path": "05_game_profiles/120fps.bat",
+      "bytes": 504,
+      "sha256": "23913659030b340d5683a72a35c59d357f125e39dafef6cc7cd6c5b9979c7ca7"
+    },
+    {
+      "path": "05_game_profiles/60fps.bat",
+      "bytes": 501,
+      "sha256": "1b92b4e0b136296beca403d722f1300d681467c65b75bf15300f2f1e507b2dc2"
+    },
+    {
+      "path": "05_game_profiles/ab_test_template.csv",
+      "bytes": 67,
+      "sha256": "969ada542846dbba22692dac9c7071790ae43f7a4b57619eeaf7ab7462d1cbac"
+    },
+    {
+      "path": "05_game_profiles/apex_legends.bat",
+      "bytes": 480,
+      "sha256": "0662284150e884d65b799d279532699a3fa079ff390f7f67e2d2bbe3e567fa3f"
+    },
+    {
+      "path": "05_game_profiles/competitive.bat",
+      "bytes": 481,
+      "sha256": "991dad0d5f99610f1fc5b73b7c91802db67dec60e459a3bdb2729f64635c224f"
+    },
+    {
+      "path": "05_game_profiles/cpu_bound.bat",
+      "bytes": 477,
+      "sha256": "cfc434fe83c5059d83de3ca37ac86eeeeac17ac7ec1521a22203a7b17e422dce"
+    },
+    {
+      "path": "05_game_profiles/cs2.bat",
+      "bytes": 480,
+      "sha256": "6af9b38bc8f77bc1ddeb8043590d3ab593dcaaf2ea8d75333b2715bcb25465a3"
+    },
+    {
+      "path": "05_game_profiles/custom.bat",
+      "bytes": 371,
+      "sha256": "6c728f0454c23bd93d104641c91e7109f4a43db82ffd48e07841297910d7a771"
+    },
+    {
+      "path": "05_game_profiles/dota2.bat",
+      "bytes": 474,
+      "sha256": "ebdd61ee2debbb099b7233c3777789c75cf376c7cf76215e83c2237202959236"
+    },
+    {
+      "path": "05_game_profiles/emulator.bat",
+      "bytes": 487,
+      "sha256": "3adbd5d0a6952c3ed898c6d979380c17b3413758e4a7851bef00bf320da9602f"
+    },
+    {
+      "path": "05_game_profiles/expected_metrics.csv",
+      "bytes": 76,
+      "sha256": "a6b15253185a1ee0a1659dea7d398dfbcec2bde03f0f1f985db4bc825093de65"
+    },
+    {
+      "path": "05_game_profiles/fortnite.bat",
+      "bytes": 503,
+      "sha256": "a0434fb606a2f4401defeb2e8d209102e55e78c2d1260378ef766e3b1b55ba7d"
+    },
+    {
+      "path": "05_game_profiles/gpu_bound.bat",
+      "bytes": 476,
+      "sha256": "9a876a5f2b9fb6328cd8d2b389dc2784302301ada77d5530f08239bb8c3aea8e"
+    },
+    {
+      "path": "05_game_profiles/gta5.bat",
+      "bytes": 468,
+      "sha256": "238c1fda4ba49c9c9ee5c702757db25b685377a10450d9877b35ce5018e10c42"
+    },
+    {
+      "path": "05_game_profiles/hardware_rules.json",
+      "bytes": 1157,
+      "sha256": "4b1fac76a629032ab027b4d37f5073ab071322aff522ab8bc0a4dcfd0f991ff6"
+    },
+    {
+      "path": "05_game_profiles/league_of_legends.bat",
+      "bytes": 504,
+      "sha256": "202c78cda1e1c9cbb110ab5251857c249dde99c389801e211c47ac33cd125918"
+    },
+    {
+      "path": "05_game_profiles/low_end.bat",
+      "bytes": 470,
+      "sha256": "4c2d902067e6a4769f4d121966646065d2d214684a505a791b9e8d699d50ff7e"
+    },
+    {
+      "path": "05_game_profiles/minecraft.bat",
+      "bytes": 501,
+      "sha256": "e6c78569de6216ab6955f4bea5ce877ace39688c9bbe3cc06c42601c8791ad64"
+    },
+    {
+      "path": "05_game_profiles/overwatch2.bat",
+      "bytes": 488,
+      "sha256": "e67588d873081b833c80a713a82e10b09e19b16b5258cbe3435830253c28306c"
+    },
+    {
+      "path": "05_game_profiles/profile_defaults.ini",
+      "bytes": 57,
+      "sha256": "bafc43fdf6970b6e6c3b605fd01719921293ac4eb4a9d5e6d7529b8481b9a640"
+    },
+    {
+      "path": "05_game_profiles/profile_learning.txt",
+      "bytes": 89,
+      "sha256": "4ef5ffef228d1c9876496941a6c004ca11b1a43bda0a788fef7a4341e8b88f11"
+    },
+    {
+      "path": "05_game_profiles/profile_schema.json",
+      "bytes": 327,
+      "sha256": "30d136e694742e47cb736968a88f14949cfa957716ab212f4ba8db5cc7bed888"
+    },
+    {
+      "path": "05_game_profiles/profile_scoring.txt",
+      "bytes": 87,
+      "sha256": "d67fbfa234e490818941559c0a0beaf474b2e7117f74d7b02158ef7d53c0d6e2"
+    },
+    {
+      "path": "05_game_profiles/pubg.bat",
+      "bytes": 473,
+      "sha256": "8a316b8d9b749a0f961150a956e43ce2356c8f5bf622f01d0262bd0e4d4aef58"
+    },
+    {
+      "path": "05_game_profiles/quality_first.bat",
+      "bytes": 477,
+      "sha256": "33ea67638ae771a7387d12fbb853072845d31ceab4984895c36216b5b28974b3"
+    },
+    {
+      "path": "05_game_profiles/quality_targets.csv",
+      "bytes": 109,
+      "sha256": "59adc0402994563299106cd1fc8dfc2b5923bb314047640cb6e4c38ceed1b182"
+    },
+    {
+      "path": "05_game_profiles/rainbow_six_siege.bat",
+      "bytes": 502,
+      "sha256": "7b33e26e4027b12cd6fe8a81aaad54f574662d637ccfe669213c0d4523f4ab2b"
+    },
+    {
+      "path": "05_game_profiles/ram_bound.bat",
+      "bytes": 477,
+      "sha256": "567c091301633545ab8ba6e539abfeae7c5ff03afe16d9d35c832356a7618e31"
+    },
+    {
+      "path": "05_game_profiles/roblox.bat",
+      "bytes": 486,
+      "sha256": "354d4bebd8cd8a7ce84bed699683e17bbc2bb29e3a255ab2300f182ee1dfed3c"
+    },
+    {
+      "path": "05_game_profiles/steam_game.bat",
+      "bytes": 481,
+      "sha256": "8aebaec934e444696e4a179837f38beef2a10fff5b56e61d702703a83417fe92"
+    },
+    {
+      "path": "05_game_profiles/stutter_focus.bat",
+      "bytes": 494,
+      "sha256": "38a2122ffead41273fef53f930ba3385bc7901165283f2945cfbaff6801861c8"
+    },
+    {
+      "path": "05_game_profiles/targets.txt",
+      "bytes": 28,
+      "sha256": "b679df3b2615040860278b3aff2e8bb525f0871568895ae8e872dd9a4f725ef1"
+    },
+    {
+      "path": "05_game_profiles/unity_game.bat",
+      "bytes": 475,
+      "sha256": "8873bb2fa2db064911206fdb7e8f2fd07ec2da7725a66371c0826caf7194510a"
+    },
+    {
+      "path": "05_game_profiles/unreal_game.bat",
+      "bytes": 484,
+      "sha256": "7092bd2dfed94a66e3853f360f9723de8a4a1485ef15b12713525582c58df6a7"
+    },
+    {
+      "path": "05_game_profiles/valorant.bat",
+      "bytes": 497,
+      "sha256": "535d3777f64bd506c7fdb45ebfaf608154dc8e4a7092dcdf1074a26b526b1855"
+    },
+    {
+      "path": "05_game_profiles/warzone.bat",
+      "bytes": 475,
+      "sha256": "29e28d3c74cad7ffb06c583a878da4a660e404a86b9ff02171b03fdf98df2493"
+    },
+    {
+      "path": "06_diagnostics/01_full_diagnostic.bat",
+      "bytes": 192,
+      "sha256": "86f52654f0b9e082af111d6eebce089e92f05d2587f4943432bf9820d4293c48"
+    },
+    {
+      "path": "06_diagnostics/02_cpu_diagnostic.bat",
+      "bytes": 262,
+      "sha256": "6beb6bdd06bcc70107b0c7d17d82ed29974725d2a29119c0349907fd561a8511"
+    },
+    {
+      "path": "06_diagnostics/03_ram_diagnostic.bat",
+      "bytes": 267,
+      "sha256": "c29f8690e3e47c36c485174310884504c6d44636fd225926daa409eeb9b77af7"
+    },
+    {
+      "path": "06_diagnostics/04_gpu_diagnostic.bat",
+      "bytes": 268,
+      "sha256": "3fb1280f2abd3cb6d851815b1e16bf1250dc818ef4b714667d491070c12ea255"
+    },
+    {
+      "path": "06_diagnostics/05_disk_diagnostic.bat",
+      "bytes": 247,
+      "sha256": "34f53b297dc978ccb1a4c8e4e4d061e201de51e125c71c1fa3f3eeb176282b10"
+    },
+    {
+      "path": "06_diagnostics/06_volume_diagnostic.bat",
+      "bytes": 246,
+      "sha256": "6d88c3abd32dd400e1d23bc53f887a8ca38057a855b47c6aa386f3c7eacf2f73"
+    },
+    {
+      "path": "06_diagnostics/07_driver_diagnostic.bat",
+      "bytes": 322,
+      "sha256": "97b7f7dcb1c8cba62313daf584820aa1cbe93e154b4bc768747ebdba4bc0c8e9"
+    },
+    {
+      "path": "06_diagnostics/08_network_diagnostic.bat",
+      "bytes": 250,
+      "sha256": "6b0958916c952e25b72fe8ff53b2579296d548bf06506bfbc04a32b63050696a"
+    },
+    {
+      "path": "06_diagnostics/09_tcp_diagnostic.bat",
+      "bytes": 281,
+      "sha256": "291d55e196529a2f7818cf667fb14cb4f79a487738a4a6040d9a71650341cf78"
+    },
+    {
+      "path": "06_diagnostics/10_process_diagnostic.bat",
+      "bytes": 296,
+      "sha256": "d5ab358c8ab5d5c97d70a5225a30ddc62f4a569b7d12137ebe23201e1f3cfea1"
+    },
+    {
+      "path": "06_diagnostics/11_startup_diagnostic.bat",
+      "bytes": 291,
+      "sha256": "ec2f4f1e4294449a0ae8154a803b25c6eb37bb76de6638d22a7bf55f33d451d9"
+    },
+    {
+      "path": "06_diagnostics/12_service_diagnostic.bat",
+      "bytes": 313,
+      "sha256": "92dec5ea85510a84a9e4e2132a47efda8000c12adaf95cd1e90751621cbc4420"
+    },
+    {
+      "path": "06_diagnostics/13_task_diagnostic.bat",
+      "bytes": 283,
+      "sha256": "d6c83636f6282e499d7149861e6d1f7d4979df7db172153c6f830699e1157a0b"
+    },
+    {
+      "path": "06_diagnostics/14_event_system_diagnostic.bat",
+      "bytes": 286,
+      "sha256": "00f1486f7e9552532e731561891eb4d7a29a3704cd5c3374b1b1f2a58c2dc048"
+    },
+    {
+      "path": "06_diagnostics/15_event_app_diagnostic.bat",
+      "bytes": 291,
+      "sha256": "c84f112387599956722e7e27ad7961dfb9289c993ff1f82b5ef5b2b546fa6e25"
+    },
+    {
+      "path": "06_diagnostics/16_pagefile_diagnostic.bat",
+      "bytes": 266,
+      "sha256": "8e4622b3f9716041921561d297a6eb0b53c087950c012c9ddb55e975d13e42fb"
+    },
+    {
+      "path": "06_diagnostics/17_perf_counter_diagnostic.bat",
+      "bytes": 296,
+      "sha256": "ee4fcf8d84fb439a1c2a56495bb6d82f2494ba08c09143207245aa24448094a2"
+    },
+    {
+      "path": "06_diagnostics/18_io_counter_diagnostic.bat",
+      "bytes": 297,
+      "sha256": "5fc58e825d6b7b3c57a1636eaae5e039aa4550919936e8b48c0f0b8ee9ac8526"
+    },
+    {
+      "path": "06_diagnostics/19_network_counter_diagnostic.bat",
+      "bytes": 260,
+      "sha256": "1e1a92852c6ae29f6015a66d79380e8ec56fa0ffc9a2fa73cfbd7354f56a16ac"
+    },
+    {
+      "path": "06_diagnostics/20_power_diagnostic.bat",
+      "bytes": 307,
+      "sha256": "a0b1e84dfd776f1bbc3e18ae2bb5538600fffdeb7d2570e9b121ebfe008c73c2"
+    },
+    {
+      "path": "06_diagnostics/21_sleep_diagnostic.bat",
+      "bytes": 200,
+      "sha256": "dc6bd6004e20a6dec408e49b0c1e536b2bd28337cd5fb6bd6b784171d3a97aa5"
+    },
+    {
+      "path": "06_diagnostics/22_wake_diagnostic.bat",
+      "bytes": 200,
+      "sha256": "2aac1ec9c7289e6ee640e5f928419eaa871368941e42184e81c37af9c74d9b09"
+    },
+    {
+      "path": "06_diagnostics/23_trim_diagnostic.bat",
+      "bytes": 223,
+      "sha256": "217d92e26a4830783637dffe2c1834cb087d9470bf644db56d04ac15ee2d0ed8"
+    },
+    {
+      "path": "06_diagnostics/24_sfc_diagnostic.bat",
+      "bytes": 265,
+      "sha256": "e55c8ecda89099c576407f60767711945d4aaf10f75a1622b153c1f5085cf565"
+    },
+    {
+      "path": "06_diagnostics/25_dism_diagnostic.bat",
+      "bytes": 289,
+      "sha256": "d82394901697f35c9062defa8126120101743143daae2d2913415743b820b838"
+    },
+    {
+      "path": "06_diagnostics/26_bios_diagnostic.bat",
+      "bytes": 257,
+      "sha256": "88b5b3884a7c46902d596eff1ab1aea495a3960d2cf0da525298f50243f60ac8"
+    },
+    {
+      "path": "06_diagnostics/27_motherboard_diagnostic.bat",
+      "bytes": 262,
+      "sha256": "991192fa672eb4e467e31a1a8795429c7203a038635936023aaf75a1ce17dd42"
+    },
+    {
+      "path": "06_diagnostics/28_display_diagnostic.bat",
+      "bytes": 353,
+      "sha256": "6677b606ac66153b9bdbbac9b1c8dc15e5e0a44feef63853d24d202aa44e1e58"
+    },
+    {
+      "path": "06_diagnostics/29_audio_diagnostic.bat",
+      "bytes": 294,
+      "sha256": "03920d169893ac82e5c4be17f15bee64a4548a371d1160b1ea6863fb7a56dc69"
+    },
+    {
+      "path": "06_diagnostics/30_export_all_diagnostics.bat",
+      "bytes": 350,
+      "sha256": "b44a24fbca1ff2a3e9da549b8f9d0a5e1946b9318e0317bca860c0707c252c07"
+    },
+    {
+      "path": "07_monitor/01_cpu_live.bat",
+      "bytes": 359,
+      "sha256": "3bfc83a536f2de4ec073af0ed6420a5c6ca8b118a42efe0714f92ec160b2387a"
+    },
+    {
+      "path": "07_monitor/02_ram_live.bat",
+      "bytes": 378,
+      "sha256": "0d2a61b159e14372b676f286b9ee3d34914ff1070f6cffb155a82401a3529bdf"
+    },
+    {
+      "path": "07_monitor/03_process_live.bat",
+      "bytes": 358,
+      "sha256": "7ae1ea2f78a6d6202e7a7dbd20886f9e0f66a068b400c93d730022878c778814"
+    },
+    {
+      "path": "07_monitor/04_disk_live.bat",
+      "bytes": 294,
+      "sha256": "7c58a9be1b8825bc550608527c10db6fec1b59ace0d981992fcf23bbec825c63"
+    },
+    {
+      "path": "07_monitor/05_network_live.bat",
+      "bytes": 318,
+      "sha256": "52e95f54f7e90df7cd6bc3d10c513430d352095a0bd6c15e72778dc3a2f2b037"
+    },
+    {
+      "path": "07_monitor/06_gpu_live.bat",
+      "bytes": 411,
+      "sha256": "b58077c3a4702ca98448d03d15eff3163f669d5cc4be91822fe73c874083e034"
+    },
+    {
+      "path": "07_monitor/07_clock_hint.bat",
+      "bytes": 315,
+      "sha256": "639a2b47f39381efd3882b3548035478b63258623b0a39f6189f631d6ff4b844"
+    },
+    {
+      "path": "07_monitor/08_thermal_hint.bat",
+      "bytes": 333,
+      "sha256": "5ddc202ef61afd650635bfffd974f47dcdfa582b8350c0a1d899aa2aa01582cf"
+    },
+    {
+      "path": "07_monitor/09_power_hint.bat",
+      "bytes": 228,
+      "sha256": "fabc6e4646c7c7cd20737e9b8313697ca661009e3e4e33628e02d269b934a70d"
+    },
+    {
+      "path": "07_monitor/09_thermal_throttle_correlation.bat",
+      "bytes": 316,
+      "sha256": "3bf0fb62f81373406ae003e8815d141ce6c12e5f2d268b414aae139ea86b6a13"
+    },
+    {
+      "path": "07_monitor/10_dpc_guide.bat",
+      "bytes": 285,
+      "sha256": "385f2c609ecee6545ab34896e8d400c3492ac7cc91acdd9aed57ca52153b6765"
+    },
+    {
+      "path": "07_monitor/11_fps_workflow.bat",
+      "bytes": 288,
+      "sha256": "35ca20a40ad4e31185649c407232e9370d2b3d8c4b5276b7a7cbe55b9b2218a6"
+    },
+    {
+      "path": "07_monitor/12_frame_time_workflow.bat",
+      "bytes": 295,
+      "sha256": "08aec3ef35447f6054313d7b211de68e94b0faa951390f005f2f36a9dd36bb6d"
+    },
+    {
+      "path": "07_monitor/13_stutter_workflow.bat",
+      "bytes": 292,
+      "sha256": "488cb0f004ee416d59cc2bbf568d79674695dea6e74c49873cad85df7ef104c8"
+    },
+    {
+      "path": "07_monitor/14_session_start.bat",
+      "bytes": 242,
+      "sha256": "da126b33be69e1184e6363289340435db0830a8b9514b5209b476b715b922059"
+    },
+    {
+      "path": "07_monitor/15_session_stop.bat",
+      "bytes": 241,
+      "sha256": "6ce33a0c6232c0a15be6fc59ed845bf200aeda59b653474814c9d1f56c6aa5c0"
+    },
+    {
+      "path": "07_monitor/16_csv_export_process.bat",
+      "bytes": 327,
+      "sha256": "2ebd3c24967d16837c88f7ac76bd7220c5918d08368876ff07e23469816ffccc"
+    },
+    {
+      "path": "07_monitor/17_csv_export_memory.bat",
+      "bytes": 314,
+      "sha256": "bae5561b903b1f3f4c5b67559e8d0c64c8002054c6edbd61c6fb5d5e7a46c8ea"
+    },
+    {
+      "path": "07_monitor/18_csv_export_network.bat",
+      "bytes": 302,
+      "sha256": "9e07b6711b029d3e5ffeceba7fadd72c50d2b7e7383035228858a02d173237a8"
+    },
+    {
+      "path": "07_monitor/19_csv_export_disk.bat",
+      "bytes": 291,
+      "sha256": "0899096db0cda7555f9b5d9dea9e01868d68569d6ef6fbc8c4d0c341b8feb21d"
+    },
+    {
+      "path": "07_monitor/20_csv_export_power.bat",
+      "bytes": 238,
+      "sha256": "f06b753580e73b9040776bed7a30e3e40c09bc2c8f160868bc44b1dee3a0ae3f"
+    },
+    {
+      "path": "07_monitor/21_top_cpu_history.bat",
+      "bytes": 303,
+      "sha256": "5b566e3de969adb457dbf8da15f02b3cb7d33dee23764a6c338e324c544a6538"
+    },
+    {
+      "path": "07_monitor/22_top_ram_history.bat",
+      "bytes": 303,
+      "sha256": "5b566e3de969adb457dbf8da15f02b3cb7d33dee23764a6c338e324c544a6538"
+    },
+    {
+      "path": "07_monitor/23_top_io_history.bat",
+      "bytes": 303,
+      "sha256": "5b566e3de969adb457dbf8da15f02b3cb7d33dee23764a6c338e324c544a6538"
+    },
+    {
+      "path": "07_monitor/24_top_network_history.bat",
+      "bytes": 303,
+      "sha256": "5b566e3de969adb457dbf8da15f02b3cb7d33dee23764a6c338e324c544a6538"
+    },
+    {
+      "path": "07_monitor/25_event_watch.bat",
+      "bytes": 390,
+      "sha256": "10951add8e85efab05fe11ccf290ec4d2f0f94fd43cf09d00da08abf5279d8e6"
+    },
+    {
+      "path": "07_monitor/26_game_detector.bat",
+      "bytes": 309,
+      "sha256": "abadfe948608479c41f9389fbdce8c5144666e9be402cf86fa5a3ecd4d868124"
+    },
+    {
+      "path": "07_monitor/27_fps_target_calculator.bat",
+      "bytes": 340,
+      "sha256": "3698ebee6461521eeada39ed9d8a411db717e1bdb778bb2c36585b85cf5b7abf"
+    },
+    {
+      "path": "07_monitor/28_resolution_advisor.bat",
+      "bytes": 314,
+      "sha256": "b0e72b0b90204446c71eaeae5c0b87fe6f522b6994b5ef07cd83d14895438777"
+    },
+    {
+      "path": "07_monitor/29_bottleneck_estimator.bat",
+      "bytes": 232,
+      "sha256": "2eb8ef57e934bece551fdf96025d6076779c0f8f880095eb49d28de3bfb9713b"
+    },
+    {
+      "path": "07_monitor/30_dashboard.bat",
+      "bytes": 505,
+      "sha256": "753bdfccb94f7a585cf1b16af3602a7d046586a435717101b33c91a736e4f5ca"
+    },
+    {
+      "path": "07_monitor/31_latency_overlay_guide.bat",
+      "bytes": 197,
+      "sha256": "25de2dd903ff51136d7948be5bdf735b3a3d562b299ceb55d4a69a88f85f79c3"
+    },
+    {
+      "path": "08_cleanup/01_temp_safe.bat",
+      "bytes": 238,
+      "sha256": "596ebc4c9b0752d22b2a6f5eae81723991ff0e93dd06e36480b9c837f8d103b3"
+    },
+    {
+      "path": "08_cleanup/02_windows_temp_safe.bat",
+      "bytes": 248,
+      "sha256": "fca2756191e04a1d3a1392d8869a162e316698a45dafa8d759fbfa0e599e3ccf"
+    },
+    {
+      "path": "08_cleanup/03_recycle_bin.bat",
+      "bytes": 303,
+      "sha256": "f968e82a43062890c1a13b5bbd2f15cd9dae9f403fb4742f860c6636d755e3d2"
+    },
+    {
+      "path": "08_cleanup/04_directx_shader_cache.bat",
+      "bytes": 297,
+      "sha256": "38b4ae364ad282c1e36f22feb195802e6e94559018ba62df77995b8876f40f98"
+    },
+    {
+      "path": "08_cleanup/05_delivery_optimization_cache.bat",
+      "bytes": 299,
+      "sha256": "3ea5de8fe6a0bc35f68f8c1b37a2e6e327ab2daa70b44aeb46888b85baadb988"
+    },
+    {
+      "path": "08_cleanup/06_thumbnail_cache.bat",
+      "bytes": 269,
+      "sha256": "032a0e9fc5a2cb18839c04423106c8a9dc2d2ef2070c958a3a3d5a3e5e49ec39"
+    },
+    {
+      "path": "08_cleanup/07_browser_cache_guide.bat",
+      "bytes": 280,
+      "sha256": "b3b588b9340e0857db903702aefc17b6279f4545be03eb3aa39c894bf1300af2"
+    },
+    {
+      "path": "08_cleanup/08_crash_dumps.bat",
+      "bytes": 269,
+      "sha256": "032a0e9fc5a2cb18839c04423106c8a9dc2d2ef2070c958a3a3d5a3e5e49ec39"
+    },
+    {
+      "path": "08_cleanup/09_wer_reports.bat",
+      "bytes": 269,
+      "sha256": "032a0e9fc5a2cb18839c04423106c8a9dc2d2ef2070c958a3a3d5a3e5e49ec39"
+    },
+    {
+      "path": "08_cleanup/10_prefetch_guide.bat",
+      "bytes": 243,
+      "sha256": "2108f7ecdfc3693fd0ccbd4adf8b44d34f9a9057e644bccfd10ed5d3db0c84a0"
+    },
+    {
+      "path": "08_cleanup/11_dns_cache.bat",
+      "bytes": 245,
+      "sha256": "971356a10a25939e55ab12bb53ed61a5ee44b55ed703925fc0aaad86b07a816f"
+    },
+    {
+      "path": "08_cleanup/12_component_store_analyze.bat",
+      "bytes": 238,
+      "sha256": "1324e34d173ad4003485dd66b82bb93260cdf1b28d664441f412c8308da6c373"
+    },
+    {
+      "path": "08_cleanup/13_dism_component_cleanup.bat",
+      "bytes": 232,
+      "sha256": "8b6382df9f1b743c3a18ecf5549806ec0aef880bf26e7de7ea1476cb55da1598"
+    },
+    {
+      "path": "08_cleanup/14_cleanmgr_profile.bat",
+      "bytes": 261,
+      "sha256": "26007c3868a3ee15a7410fcfa27ad9617d5bffc475c641c6db69037ae539d74c"
+    },
+    {
+      "path": "08_cleanup/15_storage_sense_guide.bat",
+      "bytes": 280,
+      "sha256": "a5e57b0f2c9a144a1e0ea3b20a4bab7fe278d81ec9e700dda42d4c5f9557a399"
+    },
+    {
+      "path": "08_cleanup/16_old_logs_report.bat",
+      "bytes": 230,
+      "sha256": "cfd46a04c8b657813654255f7428366456ba6beed4ffe1634e863ad5a8180c46"
+    },
+    {
+      "path": "08_cleanup/17_downloads_report.bat",
+      "bytes": 231,
+      "sha256": "f6dd04ab5641e555725809f8160b125088847a0406899fabdccbbcac29cc20e3"
+    },
+    {
+      "path": "08_cleanup/18_large_temp_report.bat",
+      "bytes": 232,
+      "sha256": "69b087c60f2f2f655684a8e39451ebd6f431c6287e632614e0e6b539342fb89e"
+    },
+    {
+      "path": "08_cleanup/19_user_temp_size.bat",
+      "bytes": 229,
+      "sha256": "e891edd15d56e66b248ed988266e1e19eed5006593d3b3b7f3b33178a47f1263"
+    },
+    {
+      "path": "08_cleanup/20_windows_temp_size.bat",
+      "bytes": 232,
+      "sha256": "fa22a76b2d62e1adf46efce3af39fbe82a52189a100df384cc757140a7d12706"
+    },
+    {
+      "path": "08_cleanup/21_cache_report.bat",
+      "bytes": 227,
+      "sha256": "e5de7bebf2ffabd0d0675d543613e164e596ed651c7a02b5d74c231d59b76e5e"
+    },
+    {
+      "path": "08_cleanup/22_game_cache_guide.bat",
+      "bytes": 277,
+      "sha256": "a11d76b8bcf8a264c96eac4faddee90a5b8c8aea73f23e070bc46cd094cd7378"
+    },
+    {
+      "path": "08_cleanup/23_steam_shader_guide.bat",
+      "bytes": 279,
+      "sha256": "290ee2ca58cc43e39c6e9d1f294c6336dda9a1a11e9d7838c5c1a1621f9d0889"
+    },
+    {
+      "path": "08_cleanup/24_roblox_cache_guide.bat",
+      "bytes": 279,
+      "sha256": "3c31a5b1eed9c8242482ebda52a8968762a8beb24fbe4a2fa661a41fdf5e1af3"
+    },
+    {
+      "path": "08_cleanup/25_java_cache_guide.bat",
+      "bytes": 277,
+      "sha256": "6c405ee7163510963836b7a5654e5ad48b27b1e88dbffdf9d96871757e877bee"
+    },
+    {
+      "path": "08_cleanup/26_gpu_cache_guide.bat",
+      "bytes": 276,
+      "sha256": "6774feeb24e41dc3da0fd17df923de5fa1f7d23b489aea3a0425e78e5b0da1f0"
+    },
+    {
+      "path": "08_cleanup/27_cleanup_dry_run.bat",
+      "bytes": 300,
+      "sha256": "8d735a535fdb42a57fdaae92befd27a868da771b61e1b1ec86953c36c96e997d"
+    },
+    {
+      "path": "08_cleanup/28_cleanup_execute.bat",
+      "bytes": 314,
+      "sha256": "9e22c8d1b842ee3f9366c9305e4dee42be61d770ebeb8a747c4884c3b435ba7b"
+    },
+    {
+      "path": "08_cleanup/29_cleanup_verify.bat",
+      "bytes": 204,
+      "sha256": "f5e1a4ab0619090e52bc5eadb7c9a838ce57458211b4eab0ddbf57ffcb01e112"
+    },
+    {
+      "path": "08_cleanup/30_cleanup_all.bat",
+      "bytes": 288,
+      "sha256": "cbc446c7155e502ce1bfc0f05947ef0a466d7f8c57765d9ee5c291252c56f42d"
+    },
+    {
+      "path": "10_backup_rollback/01_snapshot_registry.bat",
+      "bytes": 1335,
+      "sha256": "226864d6dadaaef1ea87e6dafe737271af39229d56fcd501ec8e33f84edbca5a"
+    },
+    {
+      "path": "10_backup_rollback/02_snapshot_power.bat",
+      "bytes": 360,
+      "sha256": "ec2827183dbd06c610118bfa6eaa65cbcf79b1df8247c5e72a0ce291223e5955"
+    },
+    {
+      "path": "10_backup_rollback/03_snapshot_network.bat",
+      "bytes": 369,
+      "sha256": "846696483060d85de1cdea0e9d2b2bbfed349e39c197c4bd2742fd82a974a842"
+    },
+    {
+      "path": "10_backup_rollback/04_snapshot_process.bat",
+      "bytes": 346,
+      "sha256": "f122daf3c72ef54eb39fb53668aa748344f1b6414e2bc36fcabd1252d0b419c9"
+    },
+    {
+      "path": "10_backup_rollback/05_snapshot_services.bat",
+      "bytes": 320,
+      "sha256": "9116acd96806a8fc24205d911e648ea25ffdf9856c6474c1c8ebb1f6eb9e1bf2"
+    },
+    {
+      "path": "10_backup_rollback/06_snapshot_startup.bat",
+      "bytes": 313,
+      "sha256": "3928322e04cd022f30f66bbbff2281d7127ec6e17a1cbfa8f75bfaa3e8698ec1"
+    },
+    {
+      "path": "10_backup_rollback/07_snapshot_drivers.bat",
+      "bytes": 381,
+      "sha256": "73ac1a24880e1d54d0e8b61f86cf2be46af9392330bf41f8c70e590632370f27"
+    },
+    {
+      "path": "10_backup_rollback/08_snapshot_systeminfo.bat",
+      "bytes": 227,
+      "sha256": "24f00bb451f3b305b9f8740c55f1cbcf691e179febc2b4dc72e48ff62f7aaca6"
+    },
+    {
+      "path": "10_backup_rollback/09_snapshot_all.bat",
+      "bytes": 673,
+      "sha256": "c123a17cafef56522b8f3780754d9d6f2baa2f59129ce5e69872c183b4fccd0a"
+    },
+    {
+      "path": "10_backup_rollback/10_list_snapshots.bat",
+      "bytes": 204,
+      "sha256": "e9be76cf183bb505c206eb588f88a0d8351b0eef2d2698f1c501a6973fc332f9"
+    },
+    {
+      "path": "10_backup_rollback/11_rollback_registry.bat",
+      "bytes": 1325,
+      "sha256": "a8f3f26ac5d270d4c1fc1f585077daf8dff1488465d8b454db9c84401a3869ca"
+    },
+    {
+      "path": "10_backup_rollback/12_rollback_power.bat",
+      "bytes": 309,
+      "sha256": "dac77fb96c579534393dbbc5e1ebacb2e2aa0c2aa62b580c2af40f17018938ca"
+    },
+    {
+      "path": "10_backup_rollback/13_rollback_network_guide.bat",
+      "bytes": 277,
+      "sha256": "3e1a792db1a8be24e72617b341eaa174a90c9fd81d385080d7cf7d1c3ca4d0ab"
+    },
+    {
+      "path": "10_backup_rollback/14_rollback_all_safe.bat",
+      "bytes": 287,
+      "sha256": "5ba50eea4e73107c976f4c78da0f63363b17ce515a9b146c43f0aaab9b3ddbe8"
+    },
+    {
+      "path": "10_backup_rollback/15_delete_snapshots.bat",
+      "bytes": 225,
+      "sha256": "b02296cc968c6e971d74016f0c2049f0698bedb4e661240aaca22281698c342c"
+    },
+    {
+      "path": "10_backup_rollback/16_checkpoint_label.bat",
+      "bytes": 272,
+      "sha256": "fe9e927046f4ade00d31bb8380661bb596a363dee5ac59bed35fedd8d8f07de4"
+    },
+    {
+      "path": "10_backup_rollback/17_export_environment.bat",
+      "bytes": 292,
+      "sha256": "44e2e385b34879b5c857842bec365f62d135b02fa398ea4386504e7d8b4908f0"
+    },
+    {
+      "path": "10_backup_rollback/18_export_tasks.bat",
+      "bytes": 302,
+      "sha256": "45b363518ccb1d0c3edd376ad1931a5328060aa2c33ff8759cc19d991c5b9735"
+    },
+    {
+      "path": "10_backup_rollback/19_export_reg_run.bat",
+      "bytes": 373,
+      "sha256": "39b554d07b0679056861d2389c16bd8673ed99385eaeebb8dc8c3a1f18680a2c"
+    },
+    {
+      "path": "10_backup_rollback/20_export_policy_keys.bat",
+      "bytes": 299,
+      "sha256": "d1f35544dfe132c7921fb2e90ffb1e856501437b89f3c83c65de9662cc9c4380"
+    },
+    {
+      "path": "10_backup_rollback/21_compare_snapshots.bat",
+      "bytes": 353,
+      "sha256": "7cc73177d63e334c52b78d81031fdc8acdbd5558ae60f003a3d22dfb03e09443"
+    },
+    {
+      "path": "10_backup_rollback/22_verify_snapshot_integrity.bat",
+      "bytes": 347,
+      "sha256": "b7cb06b8ff5813d9a9d59dc5f2cf88551cf2cf11e34b7f1bd965f9c4020878f0"
+    },
+    {
+      "path": "10_backup_rollback/23_verify_files.bat",
+      "bytes": 300,
+      "sha256": "8c7d73c85cab31102579043872a107bf9cd4c9db742e55ec9281b4e2413e37c0"
+    },
+    {
+      "path": "10_backup_rollback/24_rollback_last_reg.bat",
+      "bytes": 287,
+      "sha256": "5ba50eea4e73107c976f4c78da0f63363b17ce515a9b146c43f0aaab9b3ddbe8"
+    },
+    {
+      "path": "10_backup_rollback/25_rollback_guide.txt",
+      "bytes": 94,
+      "sha256": "a759fa62993c03b3f02c2c9848821f3ac7ae5222d7e3dc54cf913f00f24c6d9b"
+    },
+    {
+      "path": "10_backup_rollback/26_safety_rules.txt",
+      "bytes": 97,
+      "sha256": "25d6a7595e2c9f7add7d7004dae09ca054d09d9865f67c3f95d2d29657206f5b"
+    },
+    {
+      "path": "10_backup_rollback/27_changelog_session.txt",
+      "bytes": 84,
+      "sha256": "7a81111288ddc1102a143e48499daf9bc3d8492ca6e294af4e25b0d373086993"
+    },
+    {
+      "path": "10_backup_rollback/28_rollback_report.bat",
+      "bytes": 343,
+      "sha256": "13e8f207d131e831bbe526e7155bc57e8d2d2df6525a75ad61015a810155bee0"
+    },
+    {
+      "path": "10_backup_rollback/29_recovery_mode.bat",
+      "bytes": 330,
+      "sha256": "16c25a39e6608db39fcf91c1eb4d1998d5e3f489349e44d9864ba06ec6c0bc30"
+    },
+    {
+      "path": "10_backup_rollback/30_backup_hub.bat",
+      "bytes": 611,
+      "sha256": "639dd9afdb4829ac1b5d0c16d2c71c53db7f054715c51149d22b367064beb7b7"
+    },
+    {
+      "path": "10_backup_rollback/31_export_full_diff_report.bat",
+      "bytes": 406,
+      "sha256": "1a3d08862c22e21e0ed7021aa4fc5a3491eccfb136052c6309d534fdd4d73106"
+    },
+    {
+      "path": "11_gpu_driver/01_gpu_vendor_detect.bat",
+      "bytes": 216,
+      "sha256": "4f989e18e0ffe03b7c5cbcb07ab44faa6b3cc442cb17ab8391b6ab0ecef806f1"
+    },
+    {
+      "path": "11_gpu_driver/02_nvidia_low_latency_guide.bat",
+      "bytes": 359,
+      "sha256": "7e86a884e16a20134308ecf77ce8cdd7bde7c8583a1173106d1231126ee6287e"
+    },
+    {
+      "path": "11_gpu_driver/03_nvidia_reflex_check.bat",
+      "bytes": 371,
+      "sha256": "c6818b07e65d4827363f5164014f1fb83e2c20ca06fe818f73829239f43649b7"
+    },
+    {
+      "path": "11_gpu_driver/04_amd_antilag_guide.bat",
+      "bytes": 195,
+      "sha256": "944408c7813f131077bff2ace54746180a0871f09e29aed75ff6e91ae988b4b6"
+    },
+    {
+      "path": "11_gpu_driver/05_intel_arc_guide.bat",
+      "bytes": 114,
+      "sha256": "1bfc0ff63a5e6c95b7118bfcb69f5094586f9d4ffddd5bbadb80c6c6cde3213f"
+    },
+    {
+      "path": "11_gpu_driver/06_gpu_shader_cache_size.bat",
+      "bytes": 201,
+      "sha256": "cd79007822aded9b97056bc0dc21669dfd5b4fc1614d3e7944a66b71b5d7ed75"
+    },
+    {
+      "path": "11_gpu_driver/07_gpu_power_mode_guide.bat",
+      "bytes": 206,
+      "sha256": "d7f39154b462d47f175123df34a9f0d1af9da5f160ee1d5f7148b7b9bf494672"
+    },
+    {
+      "path": "11_gpu_driver/08_hags_on.reg",
+      "bytes": 135,
+      "sha256": "84b9cbc5917b8acb923781c24dc6f42f734004532331d641f4bdacc7d8086e78"
+    },
+    {
+      "path": "11_gpu_driver/08_overlay_audit.bat",
+      "bytes": 497,
+      "sha256": "6c0fe4b7872056bd09e249605effd56063b750de79dfae25da20a2583133ac82"
+    },
+    {
+      "path": "11_gpu_driver/09_driver_rollback_guide.txt",
+      "bytes": 519,
+      "sha256": "140f7c711b15f3b1824382c08c66e86112c45fc17e4fca50d65d7b60908645fd"
+    },
+    {
+      "path": "11_gpu_driver/09_hags_off.reg",
+      "bytes": 135,
+      "sha256": "4d47dce4c6fd921c0d498297337266aa190fe35d0d458ccacc3af075264b2238"
+    },
+    {
+      "path": "11_gpu_driver/10_rollback_gpu_defaults.bat",
+      "bytes": 244,
+      "sha256": "41706f6e25b027140bdfcc380bbf0548518bcc233ac2f3b68fa48a5f36a234a5"
+    },
+    {
+      "path": "12_cpu_advanced/01_core_parking_off.bat",
+      "bytes": 1246,
+      "sha256": "a346b4aaf9bff7839f6f61415fc13b9e86e552750661470d78b3d7c6d61439a3"
+    },
+    {
+      "path": "12_cpu_advanced/02_core_parking_restore.bat",
+      "bytes": 358,
+      "sha256": "2c729bc4188c819f2be23be758844edf59603785e5b6ae80f0abe7c7d78f9d70"
+    },
+    {
+      "path": "12_cpu_advanced/03_mmcss_games_task_check.bat",
+      "bytes": 148,
+      "sha256": "11c40f6abf9d7b6a5787647b128ce7c2cf1960720ed8f191d8147d98a4d3f62f"
+    },
+    {
+      "path": "12_cpu_advanced/04_mmcss_games_task_boost.reg",
+      "bytes": 226,
+      "sha256": "914338c2559f999366e2cd46b548125b85e2e78f427fd014139eea9c13544a2a"
+    },
+    {
+      "path": "12_cpu_advanced/05_smt_status_check.bat",
+      "bytes": 186,
+      "sha256": "45a1cf74bb470bf3032c773ceea18007c4b4ddace59a7213d25fab304ce1ce9e"
+    },
+    {
+      "path": "12_cpu_advanced/06_cpu_affinity_wizard.bat",
+      "bytes": 493,
+      "sha256": "1467eeba257ff85e5dc67655cdd65f0ab130e3aeae55d3ef4e381ec157003ba2"
+    },
+    {
+      "path": "12_cpu_advanced/07_timer_resolution_check.bat",
+      "bytes": 319,
+      "sha256": "421322b9b564952d5a943982a66fde66af6c4ce498c3f1980e3e0ee3f8fbe099"
+    },
+    {
+      "path": "12_cpu_advanced/08_rollback_cpu_advanced.bat",
+      "bytes": 785,
+      "sha256": "0b20761a33b1a44a968d6d042385a0343a9608e69b5a380616ba6131f3fe4a76"
+    },
+    {
+      "path": "13_storage_nvme/01_trim_status.bat",
+      "bytes": 91,
+      "sha256": "3dafde316b5f9b6c57d42b3a060921d1a74635011cc998ca735db53c84a46508"
+    },
+    {
+      "path": "13_storage_nvme/02_trim_enable_safe.bat",
+      "bytes": 306,
+      "sha256": "4a66c6f51ef359a63afe72d45479dcf3fde9c6b68b9dd62e34dd92c8643cdbe8"
+    },
+    {
+      "path": "13_storage_nvme/03_indexing_off_game_drive.bat",
+      "bytes": 570,
+      "sha256": "7956d4e1b8cebb61d416a4f5e58e109de870ebaea5832e55547f3231841df1f4"
+    },
+    {
+      "path": "13_storage_nvme/04_indexing_restore.bat",
+      "bytes": 150,
+      "sha256": "80da3ea5a886d5e6505dfc6c34bbcc3b15e67e9c5aae38c29136ef3620f6ef58"
+    },
+    {
+      "path": "13_storage_nvme/05_write_cache_policy_check.bat",
+      "bytes": 189,
+      "sha256": "dc7cafe31ef4cc3f3f9ca4118bfdf3c16fbb3ed717bfebff9b80be26d6fa47df"
+    },
+    {
+      "path": "13_storage_nvme/06_pagefile_advisor.bat",
+      "bytes": 476,
+      "sha256": "3b337ffb15d368e77f1de6c73f5babfb70666c5bf77c13d7aafc353c6c82b803"
+    },
+    {
+      "path": "13_storage_nvme/07_rollback_storage.bat",
+      "bytes": 166,
+      "sha256": "291a409ea3ebcf1123a9d89da6e3b6b8a60a173b705faf61e8d201040f7e31c5"
+    },
+    {
+      "path": "14_network_advanced/01_nagle_status.bat",
+      "bytes": 381,
+      "sha256": "f7b2325f07d11a5177582ca023d3f6700b43e788fa774be474e8749335221f61"
+    },
+    {
+      "path": "14_network_advanced/02_nagle_off_safe.bat",
+      "bytes": 402,
+      "sha256": "f6956729bd51fa051267c8422dce29a0ae5e8a925581f590dfbe7519b11551be"
+    },
+    {
+      "path": "14_network_advanced/03_nagle_rollback.bat",
+      "bytes": 200,
+      "sha256": "3c49a25aa1f582e007cbbe5b59bbb35118b5bfbf9a1f8e180872b6eb185ba1f4"
+    },
+    {
+      "path": "14_network_advanced/04_nic_power_saving_off.bat",
+      "bytes": 424,
+      "sha256": "7ce0fe8067198e2712c55d6bdf151adae9d0a2f5be3f618a14576607e9fd1845"
+    },
+    {
+      "path": "14_network_advanced/05_qos_packet_scheduler_check.bat",
+      "bytes": 131,
+      "sha256": "a73c3ec754d3ce291dcaa90257c2303ed7f5689dd666fd7a6c8f57d774e4e864"
+    },
+    {
+      "path": "14_network_advanced/06_dns_benchmark.bat",
+      "bytes": 343,
+      "sha256": "d6b56e6d117e153ad15b8191deb41398c8a8a8024505e19284d2cdaca380a447"
+    },
+    {
+      "path": "14_network_advanced/07_mtu_check.bat",
+      "bytes": 294,
+      "sha256": "1efd7a8246b1ed0aeaaec42d796dd2c61667c943c2cd222c4d1fc604f11297fe"
+    },
+    {
+      "path": "14_network_advanced/08_network_reset_safe.bat",
+      "bytes": 276,
+      "sha256": "a741948b49d18ea361fd7e3713f02e11b16bc3b69627eb66ae49994e1e2578f6"
+    },
+    {
+      "path": "14_network_advanced/09_rollback_network_advanced.bat",
+      "bytes": 166,
+      "sha256": "e6f6f53603a2ac91457a0855c3695e110a4f0476120aafcf992cc31598740205"
+    },
+    {
+      "path": "14_network_advanced/10_wifi_vs_cable_jitter.bat",
+      "bytes": 1097,
+      "sha256": "201b254c2ae72939c0b0d2c80cc92d99ed478e3f09efb7756bbec429edb0c910"
+    },
+    {
+      "path": "15_display_latency/01_fullscreen_optimizations_guide.bat",
+      "bytes": 207,
+      "sha256": "81977590f9d4067809d64877ecd38bcab0acd70b417d9d009426a0046114a01e"
+    },
+    {
+      "path": "15_display_latency/02_vrr_status_check.bat",
+      "bytes": 353,
+      "sha256": "b013153b16583c664de5a6a18d6ca841e9f671014ed79d528719df39defc4287"
+    },
+    {
+      "path": "15_display_latency/03_refresh_rate_audit.bat",
+      "bytes": 384,
+      "sha256": "1a16840b7262acc544ad60b6a26e5dfad549c17c09b0c0609e07f6b56eb006eb"
+    },
+    {
+      "path": "15_display_latency/04_mpo_diagnostic.bat",
+      "bytes": 259,
+      "sha256": "a7a4a60e36276b301edd4bf7c4e3653492142bb490ad6ba9c9fbfd8639a28aae"
+    },
+    {
+      "path": "15_display_latency/05_borderless_vs_exclusive_guide.txt",
+      "bytes": 146,
+      "sha256": "c4c6b0679ce176157258ad44cf7aab710566f88cf44beef70691fe6841f18998"
+    },
+    {
+      "path": "15_display_latency/06_resizable_bar_audit.bat",
+      "bytes": 462,
+      "sha256": "1c116bf0f50c96c476e2ecad4c294d1df6b31533777d930a26bb4330bdae54f2"
+    },
+    {
+      "path": "16_audio_latency/01_audio_exclusive_mode_guide.bat",
+      "bytes": 169,
+      "sha256": "a3d18be51560ff9a82459310864f5208f20b25129e0e9e19bd8496010754710f"
+    },
+    {
+      "path": "16_audio_latency/02_audio_buffer_size_notes.txt",
+      "bytes": 155,
+      "sha256": "4b8e0c367d12c84454e8b7705b29d912018a98d6bbfa982f48f9049027d9bc28"
+    },
+    {
+      "path": "16_audio_latency/03_rollback_audio_advanced.bat",
+      "bytes": 161,
+      "sha256": "84b58df46f6289541c810dd30c78b74127388b4804131a5ef4c4f34fcadb7bf5"
+    },
+    {
+      "path": "17_input_latency/01_mouse_polling_rate_check.bat",
+      "bytes": 254,
+      "sha256": "d153d041e58fc603ee9b662d2356a1b688cfac59b8928c43aa33cb91f6303d47"
+    },
+    {
+      "path": "17_input_latency/02_raw_input_guide.txt",
+      "bytes": 120,
+      "sha256": "3ef921d757c12b6f1981eca480c24d3a848005473709ae527afbc96edb14560b"
+    },
+    {
+      "path": "17_input_latency/03_usb_selective_suspend_off.bat",
+      "bytes": 434,
+      "sha256": "fe31a93db6410ada14fb20cb522a437a8d0ff8d2919ffec11cbbdf9a7ad32621"
+    },
+    {
+      "path": "17_input_latency/04_rollback_input.bat",
+      "bytes": 229,
+      "sha256": "a080c3b1d59f15c7901ddd9925ca8746fa6909c5c115e870155f4ed276d2a01b"
+    },
+    {
+      "path": "18_telemetry_advanced/01_game_bar_widgets_off.bat",
+      "bytes": 333,
+      "sha256": "ae7d701c10dc713c987b9cb2cecc0690c9d92809fbb17f27f5c5becb44d77979"
+    },
+    {
+      "path": "18_telemetry_advanced/02_copilot_taskbar_off.bat",
+      "bytes": 339,
+      "sha256": "93e211f6c41cbacff26a1582dff6634ac0f080bc14f890811b1ee3f45854dd3c"
+    },
+    {
+      "path": "18_telemetry_advanced/03_onedrive_pause_during_session.bat",
+      "bytes": 288,
+      "sha256": "4bccd2ab95760216bee2f472272e0b50227735a6575e559aefc6f5cf3898d20e"
+    },
+    {
+      "path": "18_telemetry_advanced/04_search_indexing_pause_during_session.bat",
+      "bytes": 325,
+      "sha256": "c01a56de2ec3acb1af1abe7f7a087b6e9df91360c6db4f22d549cbf2f7e0a4ff"
+    },
+    {
+      "path": "18_telemetry_advanced/05_defender_game_folder_exclusion_guide.bat",
+      "bytes": 223,
+      "sha256": "aacdca7d5c5e03c853be28916bbec56b507d8766f9e05b5a53dc6085ea2144bc"
+    },
+    {
+      "path": "18_telemetry_advanced/06_rollback_telemetry_advanced.bat",
+      "bytes": 171,
+      "sha256": "28ffa348d897ecf4796fae2044102c1d0a99a40ba2cec657b78b6346784afb88"
+    },
+    {
+      "path": "18_telemetry_advanced/08_vbs_hvci_audit.bat",
+      "bytes": 733,
+      "sha256": "5aa1b00eea977ee4294d662f041fb8268d963016f9ed84ba8fb95c3291867728"
+    },
+    {
+      "path": "18_telemetry_advanced/09_sysmain_audit.bat",
+      "bytes": 438,
+      "sha256": "33f2dcb4e2ca58b84a4677ef2c2cd89aeb4aa38c1eadb674130777f0dcdf252a"
+    },
+    {
+      "path": "19_benchmark_automation/01_baseline_capture.bat",
+      "bytes": 1193,
+      "sha256": "a24f7fa72d0d4f0800be0d193074f4b3e7466887422b8ece0463cfbcb2a274ad"
+    },
+    {
+      "path": "19_benchmark_automation/02_post_change_capture.bat",
+      "bytes": 1185,
+      "sha256": "9a37daa3dd6ee616004d0a15d21c600788c3675196f5e1a6f6842be182de01b5"
+    },
+    {
+      "path": "19_benchmark_automation/03_compare_runs.bat",
+      "bytes": 804,
+      "sha256": "8813efe4647c9d05b5e93e888e1958c2dc586819938c3d5123533c1798bfe193"
+    },
+    {
+      "path": "19_benchmark_automation/03_compare_runs.ps1",
+      "bytes": 5237,
+      "sha256": "2881b662c85141bbef310e2a0a1bc3dc53624e3a87b2c997ff7770d27f7cc30b"
+    },
+    {
+      "path": "19_benchmark_automation/04_generate_html_report.bat",
+      "bytes": 377,
+      "sha256": "e2026a3a85a094d6a429c59ef048bec6c6b25d137621828a19b1cc90dfec0785"
+    },
+    {
+      "path": "19_benchmark_automation/04_generate_html_report.ps1",
+      "bytes": 702,
+      "sha256": "071128dd78afa929606760f5bea862c27c4c7d06111f288884b0697ac9b84e0c"
+    },
+    {
+      "path": "19_benchmark_automation/05_auto_rollback_if_worse.bat",
+      "bytes": 723,
+      "sha256": "f53c2fa19d0fcb699ac54108d7e7524e34f5dca579cd7e456a25559aec9dd1d7"
+    },
+    {
+      "path": "19_benchmark_automation/06_presentmon_check.bat",
+      "bytes": 581,
+      "sha256": "19b6ee40755c5a53c351e7113f7c9bb3c8e2247328ccc0152d820a8d4e67d022"
+    },
+    {
+      "path": "20_profile_wizard/01_hardware_class_detect.bat",
+      "bytes": 468,
+      "sha256": "1e3fb037b0e5b330dac017b0ac8f94cac17aad0ff5fd0081c34a73a7a7d4734a"
+    },
+    {
+      "path": "20_profile_wizard/02_safe_profile_apply.bat",
+      "bytes": 171,
+      "sha256": "0346aee0f15fe572eb4fdee9b8f4dd1797ec90616ff232548a4255ac93476b2c"
+    },
+    {
+      "path": "20_profile_wizard/03_aggressive_profile_apply.bat",
+      "bytes": 326,
+      "sha256": "6d012d8f2044048303bf9b29cc38f59fb0bd60bbac6e6257e354be6da305ce15"
+    },
+    {
+      "path": "20_profile_wizard/04_one_click_benchmark_and_decide.bat",
+      "bytes": 475,
+      "sha256": "d54ab223ed9732efa1776ae4a66292c878e2b57cc2e73b83d1d2ee86ffa4b2cd"
+    },
+    {
+      "path": "20_profile_wizard/05_session_report_export.bat",
+      "bytes": 212,
+      "sha256": "bd0f2e0c19cc9578e5eaaa6eeb17853c7cb53509d74437de43effe1eeffd6bd3"
+    },
+    {
+      "path": "20_profile_wizard/06_one_click_safe_flow.bat",
+      "bytes": 846,
+      "sha256": "77100d1adf6a5b409d0e0340fbbaaf7a151c6e7cf604b96cc5b0e782816bc4df"
+    },
+    {
+      "path": "20_profile_wizard/30_profile_wizard.bat",
+      "bytes": 896,
+      "sha256": "0cabf2a0225def982cc776b0ed6f390e4b5815699f4a72f5e1037571923eca49"
+    },
+    {
+      "path": "21_adaptive_engine/01_hardware_profile.bat",
+      "bytes": 246,
+      "sha256": "724f131c6eeacbb1baa6872709e075670ea097fc770e7c2e05aee370787a1e3b"
+    },
+    {
+      "path": "21_adaptive_engine/01_hardware_profile.ps1",
+      "bytes": 992,
+      "sha256": "605f98bf444ca39574ff72e6f2d1fcde539ef8e715a0e941409dc9f71d0da3c4"
+    },
+    {
+      "path": "21_adaptive_engine/02_safe_adaptive_apply.bat",
+      "bytes": 2063,
+      "sha256": "e7149162d2184bd06b3de99561d67b3a329b6b44d1326ee0141ff9a8d3678f50"
+    },
+    {
+      "path": "21_adaptive_engine/03_restore_adaptive.bat",
+      "bytes": 512,
+      "sha256": "0caf201e4bd27227b8ba457d147213fdc332708e3d1189f37702b2edd0a74c4a"
+    },
+    {
+      "path": "21_adaptive_engine/04_game_session_priority.bat",
+      "bytes": 258,
+      "sha256": "ea2a9c6e6d1bb761d971fdf5f7ac8e79fea48df0396789c800c9ab69c1124d31"
+    },
+    {
+      "path": "21_adaptive_engine/05_adaptive_hub.bat",
+      "bytes": 941,
+      "sha256": "4f36373ab5f5b90956a8f699dff0169638b27a13a0f7e57c2fc206d9780298a4"
+    },
+    {
+      "path": "21_adaptive_engine/06_cli_examples.txt",
+      "bytes": 654,
+      "sha256": "f9bd0c7263288ecf80a525edc7db5c487a89ed45e7485b36df3c69ec48fe24ce"
+    },
+    {
+      "path": "21_adaptive_engine/12_nvidia_performance.bat",
+      "bytes": 593,
+      "sha256": "83c52fa55d512791ba07cabbb03fb656246b68cf997a3520d11254418c267cdc"
+    },
+    {
+      "path": "21_adaptive_engine/12_nvidia_performance.ps1",
+      "bytes": 3820,
+      "sha256": "05d2a8d1846d45458eafe7f9556d10eea426e09fb2a6d46c6d4c9bf4740795ae"
+    },
+    {
+      "path": "21_adaptive_engine/adaptive_session.ps1",
+      "bytes": 5907,
+      "sha256": "32f5c66f28093e62f8300eb10c2734f54f60a04323d9632d0edab317194a7215"
+    },
+    {
+      "path": "21_adaptive_engine/optimization_catalog.json",
+      "bytes": 5012,
+      "sha256": "16492e8d299ce5597a24e7259f6ce3c2b540bba36c7b21002cdf7788dcc46d6f"
+    },
+    {
+      "path": "21_adaptive_engine/safe_gaming_base.reg",
+      "bytes": 389,
+      "sha256": "9fda36d2a9b785073e73cd9dbe1e5e975fc4228de0eb64e92bc93fefee57c22c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 4909,
+      "sha256": "d6bd29068369bb118b362298c04963faf4fde45810739760d2f2528bf9f0e0de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7648,
+      "sha256": "1c6dce241f87ceab7293ada9c17a7349f7088b264ced1faa55025f1845e1b6c6"
+    },
+    {
+      "path": "docs/FINAL_AUDIT.md",
+      "bytes": 2898,
+      "sha256": "8b94db8431017b5283b67f549169fd3426f5a59b5f7ffdeb974435214122c685"
+    },
+    {
+      "path": "docs/IDEAS_ORIGINAIS_USUARIO.txt",
+      "bytes": 6708,
+      "sha256": "0266902aecd836ce14323afdb1693bfaf3fa20d7803ba542281004ff0164abbf"
+    },
+    {
+      "path": "docs/PROMPT_MELHORIA.md",
+      "bytes": 16279,
+      "sha256": "55f083008b6547a4e0eadd27b1118e3dcd277c1b467209573979759132e124da"
+    },
+    {
+      "path": "docs/SAFETY.md",
+      "bytes": 808,
+      "sha256": "567d5b70659044bf5faec867fef585121b7c9f4bee8897bcea5162e55fffe3b9"
+    },
+    {
+      "path": "main.bat",
+      "bytes": 6199,
+      "sha256": "4cb6bbdc762070a958808c325a5c3f521481dce8f2ccced5abd88b8535d05b0a"
+    },
+    {
+      "path": "start_here.bat",
+      "bytes": 119,
+      "sha256": "590776bc90c7c7b1466352c0ecc546901975e27140d6c9472ad083bd75f76bf1"
+    },
+    {
+      "path": "tests/Test-ConvertBenchmarkRows.ps1",
+      "bytes": 990,
+      "sha256": "c41d11b6ac3c05c876e73000be4a92b8db7a1465d24b83c8d0aedc7902ad7455"
+    },
+    {
+      "path": "tests/fixtures/benchmark_locale.csv",
+      "bytes": 43,
+      "sha256": "315bbdd064ea669dc8b3fc6afd83c713525ebef40f83a8db899cc34e2f09269d"
+    },
+    {
+      "path": "tests/fixtures/benchmark_sample.csv",
+      "bytes": 31,
+      "sha256": "92debd2afa67243de9088e8783facb83212b0fa85f235e28f1204d8d0f619887"
+    },
+    {
+      "path": "tests/run_all_tests.bat",
+      "bytes": 263,
+      "sha256": "2c4b91259a5383e51ddd3fe04eac3dc90a2677b5bd40458ef31f9f0906700202"
+    }
+  ]
+}
