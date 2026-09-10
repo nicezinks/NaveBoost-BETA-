@@ -1,4 +1,0 @@
-windows registry editor version 5.00
-
-[hkey_local_machine\software\microsoft\windows nt\currentversion\multimedia\systemprofile\tasks\games]
-"scheduling category"="high"
