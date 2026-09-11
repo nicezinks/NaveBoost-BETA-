@@ -1,5 +1,0 @@
-@echo off
-setlocal
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$skip='Idle','System','Registry','smss','csrss','wininit','services','lsass','svchost','winlogon','fontdrvhost','dwm','explorer','sihost','taskhostw','ctfmon','spoolsv','audiodg','StartMenuExperienceHost','ApplicationFrameHost','ShellExperienceHost','SecurityHealthService','MsMpEng','NisSrv','WmiPrvSE','conhost'; Add-Type -TypeDefinition 'using System; using System.Runtime.InteropServices; public static class W { [DllImport("psapi.dll")] public static extern bool EmptyWorkingSet(IntPtr h); }'; Get-Process | Where-Object { $skip -notcontains $_.ProcessName -and $_.WorkingSet64 -gt 31457280 } | ForEach-Object { try { [W]::EmptyWorkingSet($_.Handle) | Out-Null } catch {} }; [GC]::Collect()"
-echo Working sets trimmed.
-endlocal
