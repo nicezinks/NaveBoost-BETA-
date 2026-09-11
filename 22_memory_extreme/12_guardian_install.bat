@@ -1,0 +1,31 @@
+@echo off
+setlocal EnableExtensions
+net session >nul 2>&1
+if not %errorlevel%==0 (
+  powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
+  exit /b
+)
+set "BASE=%~dp0"
+if not exist "%BASE%state" md "%BASE%state"
+
+echo ==============================================
+echo  NaveBoost INFERNO 60-70 - instalando vigia de fundo
+echo  Faixa pratica: 60-70 processos. Acima de 70 corta ate 62.
+echo  Roda escondido a cada 1s, PRA SEMPRE (ate voce
+echo  desinstalar). Fecha auxiliares invisiveis e filhos de navegadores.
+echo  Processos criticos, jogos e janelas visiveis ficam protegidos.
+echo  O teto pode ficar acima de 70 se o Windows proteger tudo.
+echo ==============================================
+
+call "%BASE%13_guardian_uninstall.bat" >nul 2>&1
+schtasks /end /tn "NaveBoost_Guardian" >nul 2>&1
+schtasks /create /tn "NaveBoost_Guardian" /tr "powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File \"%BASE%guardian_loop.ps1\" -BaseDir \"%BASE%\" -TargetProcesses 62 -MaxProcesses 70 -MaxUsedGB 2.0 -Force" /sc onlogon /rl highest /f >nul 2>&1
+
+if exist "%BASE%state\guardian_stop.flag" del /f /q "%BASE%state\guardian_stop.flag" >nul 2>&1
+
+schtasks /run /tn "NaveBoost_Guardian" >nul 2>&1
+
+echo Guardian instalado e rodando.
+echo Log ao vivo em: %BASE%state\guardian_log.txt
+echo Pra parar: 13_guardian_uninstall.bat
+endlocal

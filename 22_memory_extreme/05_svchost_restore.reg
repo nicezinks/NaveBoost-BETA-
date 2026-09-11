@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Reverte o 04_svchost_consolidate.reg - remove o valor e o Windows volta a
+; calcular o threshold sozinho com base na RAM fisica (comportamento padrao
+; de fabrica). Tambem precisa de reboot pra fazer efeito.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"SvcHostSplitThresholdInKB"=-
