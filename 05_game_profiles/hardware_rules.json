@@ -1,0 +1,48 @@
+{
+  "version": "8.0.0-adaptive",
+  "confidenceMinimum": 80,
+  "rules": [
+    {
+      "when": "temperature>=90 && cpu_util>=70 && (cpu_frequency_percent<=85 || cpu_frequency_percent missing)",
+      "class": "thermal_bound",
+      "profile": "low-end",
+      "allowedChanges": []
+    },
+    {
+      "when": "ram_used>=90",
+      "class": "ram_bound",
+      "profile": "low-end",
+      "allowedChanges": []
+    },
+    {
+      "when": "disk_busy>=90 && cpu_util<90 && gpu_util<90",
+      "class": "io_bound",
+      "profile": "low-latency",
+      "allowedChanges": []
+    },
+    {
+      "when": "cpu_util>=80 && cpu_util>=gpu_util+12 && confidence>=80",
+      "class": "cpu_bound",
+      "profile": "safe",
+      "allowedChanges": [
+        "priority_abovenormal"
+      ]
+    },
+    {
+      "when": "gpu_util>=85 && gpu_util>=cpu_util+8 && confidence>=80",
+      "class": "gpu_bound",
+      "profile": "quality",
+      "allowedChanges": []
+    }
+  ],
+  "fallback": {
+    "class": "balanced",
+    "profile": "safe",
+    "allowedChanges": [],
+    "reason": "no evidence of benefit"
+  },
+  "experimental": {
+    "automatic": false,
+    "allowedChanges": []
+  }
+}
