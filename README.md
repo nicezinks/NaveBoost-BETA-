@@ -1,8 +1,8 @@
-# naveboost turbo pro 7.3
+# naveboost turbo pro 
 
-o naveboost turbo pro e um pack de otimizacao desenvolvido durante mais de 1 mes e meio com foco em windows 10 e windows 11.
+eu fiz o naveboost turbo pro e um pack de otimizacao desenvolvido durante mais de 1 mes e meio com foco em windows 10 e windows 11.
 
-o projeto foi criado para ajudar a melhorar o desempenho geral do computador, deixar o sistema mais responsivo e proporcionar uma experiencia mais fluida em jogos e no uso diario.
+o mais focado para o projeto ajudar a melhorar o desempenho geral do computador, deixar o sistema mais responsivo e proporcionar uma experiencia mais fluida em jogos e no uso diario.
 
 ## o que o naveboost pode ajudar
 
