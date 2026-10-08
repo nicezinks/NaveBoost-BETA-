@@ -41,7 +41,3 @@ arquivos de configuracao
 ferramentas de diagnostico
 perfis de otimizacao
 sistemas de backup e restauracao
-
-## naveboost turbo pro
-
-feito durante mais de 1 mes e meio de desenvolvimento, testes e melhorias para criar uma experiencia de otimizacao mais completa para pc e gaming.
